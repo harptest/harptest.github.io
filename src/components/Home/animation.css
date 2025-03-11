@@ -1,0 +1,97 @@
+@media (min-width: 320px) {
+  #opening-line {
+    top: 8em;
+    left: 3em;
+    font-size: 0.5em;
+    width: 100%;
+    line-height: 2.5em;
+  }
+  #second-line {
+    margin-top: 1em;
+    font-size: 0.5rem;
+    line-height: 1.5em;
+    width: 60%;
+  }
+  #demo-canvas {
+    clip-path: inset(0 0 65% 0);
+  }
+  .action-items {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+  }
+}
+@media (min-width: 390px) {
+  #demo-canvas {
+    clip-path: inset(0 0 70% 0);
+  }
+}
+@media (min-width: 412px) {
+  #demo-canvas {
+    clip-path: inset(0 0 75% 0);
+  }
+}
+@media (min-width: 768px) {
+  #opening-line {
+    top: 9em;
+    left: 4em;
+    font-size: 0.75em;
+    width: 100%;
+    line-height: 2.5em;
+  }
+  #second-line {
+    margin-top: 1em;
+    font-size: 0.8rem;
+    line-height: 1.3em;
+    width: 45%;
+  }
+  #demo-canvas {
+    clip-path: inset(0 0 70% 0);
+  }
+  .action-items {
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+  }
+}
+
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+}
+
+.canvas-container {
+  position: relative;
+  width: 100%;
+}
+.action-items {
+  display: flex;
+  align-items: center;
+}
+#opening-line {
+  position: absolute;
+  color: white;
+  z-index: 10; /* Ensures the heading is on top of the canvas */
+  text-align: left;
+}
+.gradient-text {
+  background: linear-gradient(
+    90deg,
+    rgba(0, 255, 255, 1) 0%,
+    rgba(165, 0, 247, 1) 100%
+  );
+
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+
+#demo-canvas {
+  background: #161616;
+  width: 100%;
+}

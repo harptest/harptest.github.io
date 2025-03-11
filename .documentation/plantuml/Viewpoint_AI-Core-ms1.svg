@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="492px" preserveAspectRatio="none" style="width:1163px;height:492px;" version="1.1" viewBox="0 0 1163 492" width="1163px" zoomAndPan="magnify"><defs><filter height="300%" id="ft09tzw2ovj00" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[a6bd1fbdf52b20f6f6c4b35e27335971]
+cluster Viewpoint AI Core--><polygon fill="#FFFFFF" filter="url(#ft09tzw2ovj00)" points="183,63,314,63,321,85.2969,635,85.2969,635,485,183,485,183,63" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="183" x2="321" y1="85.2969" y2="85.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="125" x="187" y="77.9951">Viewpoint AI Core</text><!--MD5=[0b7db6fcd588f8499928e45a474751dc]
+cluster Utilities--><polygon fill="#FFFFFF" filter="url(#ft09tzw2ovj00)" points="207,182,268,182,275,204.2969,611,204.2969,611,461,207,461,207,182" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="207" x2="275" y1="204.2969" y2="204.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="55" x="211" y="196.9951">Utilities</text><!--MD5=[3823ee2240d6de11c1515a58db271066]
+class interfaceAPI--><rect codeLine="7" fill="#FEFECE" filter="url(#ft09tzw2ovj00)" height="66.7422" id="interfaceAPI" style="stroke:#A80036;stroke-width:1.5;" width="98" x="360" y="98.5"/><ellipse cx="375" cy="117.4688" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M374.9375,113.2969 Q374.1875,113.2969 373.625,113.5938 Q373.0625,113.875 372.6719,114.4063 Q372.2813,114.9375 372.0781,115.7188 Q371.8906,116.4844 371.8906,117.4375 Q371.8906,118.4063 372.0625,119.1719 Q372.25,119.9219 372.6094,120.4375 Q372.9844,120.9531 373.5625,121.2344 Q374.1406,121.5 374.9375,121.5 Q375.6719,121.5 376.4063,121.3281 Q377.1563,121.1563 378.0313,120.8594 L378.0313,123.0156 Q377.625,123.1719 377.2344,123.2969 Q376.8438,123.4063 376.4375,123.4844 Q376.0313,123.5625 375.6094,123.5938 Q375.1875,123.6406 374.6875,123.6406 Q373.2813,123.6406 372.25,123.1875 Q371.2344,122.7344 370.5625,121.9219 Q369.8906,121.1094 369.5625,119.9688 Q369.2344,118.8125 369.2344,117.4219 Q369.2344,116.0469 369.6094,114.8906 Q369.9844,113.7344 370.7031,112.9063 Q371.4219,112.0781 372.4844,111.625 Q373.5469,111.1563 374.9375,111.1563 Q375.8438,111.1563 376.75,111.3906 Q377.6563,111.6094 378.4844,112.0156 L377.6563,114.1094 Q376.9688,113.7813 376.2813,113.5469 Q375.5938,113.2969 374.9375,113.2969 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="53" x="395.5" y="114.6387">«FastAPI»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="66" x="389" y="128.6074">interfaceAPI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="361" x2="457" y1="136.4375" y2="136.4375"/><ellipse cx="371" cy="147.4375" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="51" x="380" y="150.6479">POST /rule</text><line style="stroke:#A80036;stroke-width:1.5;" x1="361" x2="457" y1="157.2422" y2="157.2422"/><!--MD5=[d2ae8e2635642e252106bb6197a87368]
+class RuleAnalyzer--><rect codeLine="14" fill="#FEFECE" filter="url(#ft09tzw2ovj00)" height="227.2656" id="RuleAnalyzer" style="stroke:#A80036;stroke-width:1.5;" width="372" x="223" y="217.5"/><ellipse cx="369.75" cy="233.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M369.6875,229.3281 Q368.9375,229.3281 368.375,229.625 Q367.8125,229.9063 367.4219,230.4375 Q367.0313,230.9688 366.8281,231.75 Q366.6406,232.5156 366.6406,233.4688 Q366.6406,234.4375 366.8125,235.2031 Q367,235.9531 367.3594,236.4688 Q367.7344,236.9844 368.3125,237.2656 Q368.8906,237.5313 369.6875,237.5313 Q370.4219,237.5313 371.1563,237.3594 Q371.9063,237.1875 372.7813,236.8906 L372.7813,239.0469 Q372.375,239.2031 371.9844,239.3281 Q371.5938,239.4375 371.1875,239.5156 Q370.7813,239.5938 370.3594,239.625 Q369.9375,239.6719 369.4375,239.6719 Q368.0313,239.6719 367,239.2188 Q365.9844,238.7656 365.3125,237.9531 Q364.6406,237.1406 364.3125,236 Q363.9844,234.8438 363.9844,233.4531 Q363.9844,232.0781 364.3594,230.9219 Q364.7344,229.7656 365.4531,228.9375 Q366.1719,228.1094 367.2344,227.6563 Q368.2969,227.1875 369.6875,227.1875 Q370.5938,227.1875 371.5,227.4219 Q372.4063,227.6406 373.2344,228.0469 L372.4063,230.1406 Q371.7188,229.8125 371.0313,229.5781 Q370.3438,229.3281 369.6875,229.3281 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="390.25" y="237.6543">RuleAnalyzer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="224" x2="594" y1="249.5" y2="249.5"/><polygon fill="none" points="234,255.5,238,259.5,234,263.5,230,259.5" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="87" x="243" y="263.7104">rulePrompt: string</text><polygon fill="none" points="234,268.3047,238,272.3047,234,276.3047,230,272.3047" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="243" y="276.5151">jobId: string</text><polygon fill="none" points="234,281.1094,238,285.1094,234,289.1094,230,285.1094" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="86" x="243" y="289.3198">ruleList: list[string]</text><polygon fill="none" points="234,293.9141,238,297.9141,234,301.9141,230,297.9141" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="243" y="302.1245">compoundRule: bool</text><line style="stroke:#A80036;stroke-width:1.5;" x1="224" x2="594" y1="308.7188" y2="308.7188"/><ellipse cx="234" cy="319.7188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="230" x="243" y="322.9292">initialize(rulePrompt: String, jobId: String) -&gt; void</text><ellipse cx="234" cy="332.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="201" x="243" y="335.7339">checkBasic(rulePrompt: String) -&gt; Boolean</text><ellipse cx="234" cy="345.3281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="229" x="243" y="348.5386">checkCompound(rulePrompt: String) -&gt; Boolean</text><ellipse cx="234" cy="358.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="232" x="243" y="361.3433">breakdownCompound(rulePrompt: String) -&gt; List</text><ellipse cx="234" cy="370.9375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="187" x="243" y="374.1479">checkCapability(rule: String) -&gt; Boolean</text><ellipse cx="234" cy="383.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="201" x="243" y="386.9526">breakdownMonolithic(rule: String) -&gt; Tuple</text><ellipse cx="234" cy="396.5469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="346" x="243" y="399.7573">classifyPropmter(condition: String, prompt: String, classes: List) -&gt; String</text><ellipse cx="234" cy="409.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="224" x="243" y="412.562">raiseExceptionToUser(message: String) -&gt; void</text><ellipse cx="234" cy="422.1563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="156" x="243" y="425.3667">putRuleInList(rule: String) -&gt; void</text><ellipse cx="234" cy="434.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="128" x="243" y="438.1714">returnRuleJsonList() -&gt; json</text><path d="M655,303.5 L655,327 L595.17,331 L655,335 L655,358.8984 A0,0 0 0 0 655,358.8984 L1154,358.8984 A0,0 0 0 0 1154,358.8984 L1154,313.5 L1144,303.5 L655,303.5 A0,0 0 0 0 655,303.5 " fill="#FBFB77" filter="url(#ft09tzw2ovj00)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1144,303.5 L1144,313.5 L1154,313.5 L1144,303.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="478" x="661" y="320.5669">Handles the analysis and processing of rule prompts based on specific conditions.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="473" x="661" y="335.6997">It interacts with various APIs and manages the flow of data for rule validation and</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="91" x="661" y="350.8325">decomposition.</text><path d="M6,89 L6,174.6641 A0,0 0 0 0 6,174.6641 L163,174.6641 A0,0 0 0 0 163,174.6641 L163,136 L359.55,132 L163,128 L163,99 L153,89 L6,89 A0,0 0 0 0 6,89 " fill="#FBFB77" filter="url(#ft09tzw2ovj00)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M153,89 L153,99 L163,99 L153,89 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="136" x="12" y="106.0669">POST /rule JSON Query:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="12" y="121.1997">{</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="110" x="18" y="136.3325">"job_id": "&lt;GUID&gt;",</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="117" x="18" y="151.4653">"prompt": "&lt;string&gt;"</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="12" y="166.5981">}</text><path d="M793,6 L793,128 L458.22,132 L793,136 L793,258.125 A0,0 0 0 0 793,258.125 L1016,258.125 A0,0 0 0 0 1016,258.125 L1016,16 L1006,6 L793,6 A0,0 0 0 0 793,6 " fill="#FBFB77" filter="url(#ft09tzw2ovj00)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1006,6 L1006,16 L1016,16 L1006,6 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="158" x="799" y="23.0669">POST /rule JSON Response:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="799" y="38.1997">{</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="110" x="805" y="53.3325">"job_id": "&lt;GUID&gt;",</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="120" x="805" y="68.4653">"prompt": "&lt;string&gt;",</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="64" x="805" y="83.5981">"rule_list": [</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="817" y="98.731">{</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="120" x="829" y="113.8638">"prompt": "&lt;string&gt;",</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="87" x="829" y="128.9966">"conditional": {</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="133" x="841" y="144.1294">"choice": "&lt;selection&gt;",</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="88" x="841" y="159.2622">"parameters": {</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="148" x="853" y="174.395">"&lt;parameter&gt;": "&lt;string&gt;"</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="841" y="189.5278">}</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="829" y="204.6606">}</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="817" y="219.7935">}</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="4" x="805" y="234.9263">]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="799" y="250.0591">}</text><!--MD5=[6b96b31d4a166e92e88b4522227acec2]
+@startuml Viewpoint_AI-Core-ms1
+
+' Force layout to left to right
+left to right direction
+package "Viewpoint AI Core" {
+' Define classes with methods
+
+class interfaceAPI <<FastAPI>>{
+    +POST /rule
+}
+
+package "Utilities"
+{
+
+class RuleAnalyzer { 
+    #rulePrompt: string  
+    #jobId: string
+    #ruleList: list[string]
+    #compoundRule: bool
+    +initialize(rulePrompt: String, jobId: String) -> void
+    +checkBasic(rulePrompt: String) -> Boolean
+    +checkCompound(rulePrompt: String) -> Boolean
+    +breakdownCompound(rulePrompt: String) -> List
+    +checkCapability(rule: String) -> Boolean
+    +breakdownMonolithic(rule: String) -> Tuple
+    +classifyPropmter(condition: String, prompt: String, classes: List) -> String
+    +raiseExceptionToUser(message: String) -> void
+    +putRuleInList(rule: String) -> void
+    +returnRuleJsonList() -> json
+}
+}
+
+}
+note right of RuleAnalyzer : Handles the analysis and processing of rule prompts based on specific conditions.\nIt interacts with various APIs and manages the flow of data for rule validation and\ndecomposition.
+
+' JSON Queries to the left of API
+note left of interfaceAPI
+  POST /rule JSON Query:
+  {
+    "job_id": "<GUID>",
+    "prompt": "<string>"
+  }
+end note
+
+' JSON Responses to the right of API
+note right of interfaceAPI
+  POST /rule JSON Response:
+  {
+    "job_id": "<GUID>",
+    "prompt": "<string>",
+    "rule_list": [
+        {
+            "prompt": "<string>",
+            "conditional": {
+                "choice": "<selection>",
+                "parameters": {
+                    "<parameter>": "<string>"
+                }
+            }
+        }
+    ]
+  }
+end note
+
+
+
+@enduml
+
+@startuml Viewpoint_AI-Core-ms1
+
+left to right direction
+package "Viewpoint AI Core" {
+
+class interfaceAPI <<FastAPI>>{
+    +POST /rule
+}
+
+package "Utilities"
+{
+
+class RuleAnalyzer { 
+    #rulePrompt: string  
+    #jobId: string
+    #ruleList: list[string]
+    #compoundRule: bool
+    +initialize(rulePrompt: String, jobId: String) -> void
+    +checkBasic(rulePrompt: String) -> Boolean
+    +checkCompound(rulePrompt: String) -> Boolean
+    +breakdownCompound(rulePrompt: String) -> List
+    +checkCapability(rule: String) -> Boolean
+    +breakdownMonolithic(rule: String) -> Tuple
+    +classifyPropmter(condition: String, prompt: String, classes: List) -> String
+    +raiseExceptionToUser(message: String) -> void
+    +putRuleInList(rule: String) -> void
+    +returnRuleJsonList() -> json
+}
+}
+
+}
+note right of RuleAnalyzer : Handles the analysis and processing of rule prompts based on specific conditions.\nIt interacts with various APIs and manages the flow of data for rule validation and\ndecomposition.
+
+note left of interfaceAPI
+  POST /rule JSON Query:
+  {
+    "job_id": "<GUID>",
+    "prompt": "<string>"
+  }
+end note
+
+note right of interfaceAPI
+  POST /rule JSON Response:
+  {
+    "job_id": "<GUID>",
+    "prompt": "<string>",
+    "rule_list": [
+        {
+            "prompt": "<string>",
+            "conditional": {
+                "choice": "<selection>",
+                "parameters": {
+                    "<parameter>": "<string>"
+                }
+            }
+        }
+    ]
+  }
+end note
+
+
+
+@enduml
+
+PlantUML version 1.2020.23(Sun Dec 13 19:14:58 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

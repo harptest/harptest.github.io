@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="834px" preserveAspectRatio="none" style="width:1219px;height:834px;" version="1.1" viewBox="0 0 1219 834" width="1219px" zoomAndPan="magnify"><defs><filter height="300%" id="f1hddrlm11l24q" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><!--MD5=[a6bd1fbdf52b20f6f6c4b35e27335971]
+cluster Viewpoint AI Core--><polygon fill="#FFFFFF" filter="url(#f1hddrlm11l24q)" points="239,196,370,196,377,218.2969,691,218.2969,691,827,239,827,239,196" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="239" x2="377" y1="218.2969" y2="218.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="125" x="243" y="210.9951">Viewpoint AI Core</text><!--MD5=[0b7db6fcd588f8499928e45a474751dc]
+cluster Utilities--><polygon fill="#FFFFFF" filter="url(#f1hddrlm11l24q)" points="263,339,324,339,331,361.2969,667,361.2969,667,803,263,803,263,339" style="stroke:#000000;stroke-width:1.5;"/><line style="stroke:#000000;stroke-width:1.5;" x1="263" x2="331" y1="361.2969" y2="361.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="55" x="267" y="353.9951">Utilities</text><!--MD5=[3823ee2240d6de11c1515a58db271066]
+class interfaceAPI--><rect codeLine="7" fill="#FEFECE" filter="url(#f1hddrlm11l24q)" height="92.3516" id="interfaceAPI" style="stroke:#A80036;stroke-width:1.5;" width="123" x="403.5" y="231"/><ellipse cx="429.75" cy="249.9688" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M429.6875,245.7969 Q428.9375,245.7969 428.375,246.0938 Q427.8125,246.375 427.4219,246.9063 Q427.0313,247.4375 426.8281,248.2188 Q426.6406,248.9844 426.6406,249.9375 Q426.6406,250.9063 426.8125,251.6719 Q427,252.4219 427.3594,252.9375 Q427.7344,253.4531 428.3125,253.7344 Q428.8906,254 429.6875,254 Q430.4219,254 431.1563,253.8281 Q431.9063,253.6563 432.7813,253.3594 L432.7813,255.5156 Q432.375,255.6719 431.9844,255.7969 Q431.5938,255.9063 431.1875,255.9844 Q430.7813,256.0625 430.3594,256.0938 Q429.9375,256.1406 429.4375,256.1406 Q428.0313,256.1406 427,255.6875 Q425.9844,255.2344 425.3125,254.4219 Q424.6406,253.6094 424.3125,252.4688 Q423.9844,251.3125 423.9844,249.9219 Q423.9844,248.5469 424.3594,247.3906 Q424.7344,246.2344 425.4531,245.4063 Q426.1719,244.5781 427.2344,244.125 Q428.2969,243.6563 429.6875,243.6563 Q430.5938,243.6563 431.5,243.8906 Q432.4063,244.1094 433.2344,244.5156 L432.4063,246.6094 Q431.7188,246.2813 431.0313,246.0469 Q430.3438,245.7969 429.6875,245.7969 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacingAndGlyphs" textLength="53" x="452.75" y="247.1387">«FastAPI»</text><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="66" x="446.25" y="261.1074">interfaceAPI</text><line style="stroke:#A80036;stroke-width:1.5;" x1="404.5" x2="525.5" y1="268.9375" y2="268.9375"/><ellipse cx="414.5" cy="279.9375" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="51" x="423.5" y="283.1479">POST /rule</text><ellipse cx="414.5" cy="292.7422" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="70" x="423.5" y="295.9526">POST /context</text><ellipse cx="414.5" cy="305.5469" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="97" x="423.5" y="308.7573">GET /context/:job_id</text><line style="stroke:#A80036;stroke-width:1.5;" x1="404.5" x2="525.5" y1="315.3516" y2="315.3516"/><!--MD5=[925e69d10b677aa907d102aad6e61871]
+class KnowledgeGraphGenerator--><rect codeLine="15" fill="#FEFECE" filter="url(#f1hddrlm11l24q)" height="150.4375" id="KnowledgeGraphGenerator" style="stroke:#A80036;stroke-width:1.5;" width="233" x="348.5" y="374"/><ellipse cx="387.35" cy="390" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M387.2875,385.8281 Q386.5375,385.8281 385.975,386.125 Q385.4125,386.4063 385.0219,386.9375 Q384.6313,387.4688 384.4281,388.25 Q384.2406,389.0156 384.2406,389.9688 Q384.2406,390.9375 384.4125,391.7031 Q384.6,392.4531 384.9594,392.9688 Q385.3344,393.4844 385.9125,393.7656 Q386.4906,394.0313 387.2875,394.0313 Q388.0219,394.0313 388.7563,393.8594 Q389.5063,393.6875 390.3813,393.3906 L390.3813,395.5469 Q389.975,395.7031 389.5844,395.8281 Q389.1938,395.9375 388.7875,396.0156 Q388.3813,396.0938 387.9594,396.125 Q387.5375,396.1719 387.0375,396.1719 Q385.6313,396.1719 384.6,395.7188 Q383.5844,395.2656 382.9125,394.4531 Q382.2406,393.6406 381.9125,392.5 Q381.5844,391.3438 381.5844,389.9531 Q381.5844,388.5781 381.9594,387.4219 Q382.3344,386.2656 383.0531,385.4375 Q383.7719,384.6094 384.8344,384.1563 Q385.8969,383.6875 387.2875,383.6875 Q388.1938,383.6875 389.1,383.9219 Q390.0063,384.1406 390.8344,384.5469 L390.0063,386.6406 Q389.3188,386.3125 388.6313,386.0781 Q387.9438,385.8281 387.2875,385.8281 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="148" x="406.65" y="394.1543">KnowledgeGraphGenerator</text><line style="stroke:#A80036;stroke-width:1.5;" x1="349.5" x2="580.5" y1="406" y2="406"/><polygon fill="none" points="359.5,412,363.5,416,359.5,420,355.5,416" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="53" x="368.5" y="420.2104">job_id: guid</text><polygon fill="none" points="359.5,424.8047,363.5,428.8047,359.5,432.8047,355.5,428.8047" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="70" x="368.5" y="433.0151">content: string</text><polygon fill="none" points="359.5,437.6094,363.5,441.6094,359.5,445.6094,355.5,441.6094" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="63" x="368.5" y="445.8198">context: bool</text><line style="stroke:#A80036;stroke-width:1.5;" x1="349.5" x2="580.5" y1="452.4141" y2="452.4141"/><ellipse cx="359.5" cy="463.4141" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="166" x="368.5" y="466.6245">generateGraph(self, text) -&gt; string</text><ellipse cx="359.5" cy="476.2188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="150" x="368.5" y="479.4292">cleanContent(content) -&gt; string</text><ellipse cx="359.5" cy="489.0234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="128" x="368.5" y="492.2339">tokenize(text) -&gt; list[string]</text><ellipse cx="359.5" cy="501.8281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="174" x="368.5" y="505.0386">inferErGraph(tokenized_text) -&gt; json</text><ellipse cx="359.5" cy="514.6328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="207" x="368.5" y="517.8433">reconcileGraph(self, new_graph, old_graph)</text><!--MD5=[d2ae8e2635642e252106bb6197a87368]
+class RuleAnalyzer--><rect codeLine="26" fill="#FEFECE" filter="url(#f1hddrlm11l24q)" height="227.2656" id="RuleAnalyzer" style="stroke:#A80036;stroke-width:1.5;" width="372" x="279" y="559.5"/><ellipse cx="425.75" cy="575.5" fill="#ADD1B2" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M425.6875,571.3281 Q424.9375,571.3281 424.375,571.625 Q423.8125,571.9063 423.4219,572.4375 Q423.0313,572.9688 422.8281,573.75 Q422.6406,574.5156 422.6406,575.4688 Q422.6406,576.4375 422.8125,577.2031 Q423,577.9531 423.3594,578.4688 Q423.7344,578.9844 424.3125,579.2656 Q424.8906,579.5313 425.6875,579.5313 Q426.4219,579.5313 427.1563,579.3594 Q427.9063,579.1875 428.7813,578.8906 L428.7813,581.0469 Q428.375,581.2031 427.9844,581.3281 Q427.5938,581.4375 427.1875,581.5156 Q426.7813,581.5938 426.3594,581.625 Q425.9375,581.6719 425.4375,581.6719 Q424.0313,581.6719 423,581.2188 Q421.9844,580.7656 421.3125,579.9531 Q420.6406,579.1406 420.3125,578 Q419.9844,576.8438 419.9844,575.4531 Q419.9844,574.0781 420.3594,572.9219 Q420.7344,571.7656 421.4531,570.9375 Q422.1719,570.1094 423.2344,569.6563 Q424.2969,569.1875 425.6875,569.1875 Q426.5938,569.1875 427.5,569.4219 Q428.4063,569.6406 429.2344,570.0469 L428.4063,572.1406 Q427.7188,571.8125 427.0313,571.5781 Q426.3438,571.3281 425.6875,571.3281 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" lengthAdjust="spacingAndGlyphs" textLength="70" x="446.25" y="579.6543">RuleAnalyzer</text><line style="stroke:#A80036;stroke-width:1.5;" x1="280" x2="650" y1="591.5" y2="591.5"/><polygon fill="none" points="290,597.5,294,601.5,290,605.5,286,601.5" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="87" x="299" y="605.7104">rulePrompt: string</text><polygon fill="none" points="290,610.3047,294,614.3047,290,618.3047,286,614.3047" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="56" x="299" y="618.5151">jobId: string</text><polygon fill="none" points="290,623.1094,294,627.1094,290,631.1094,286,627.1094" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="86" x="299" y="631.3198">ruleList: list[string]</text><polygon fill="none" points="290,635.9141,294,639.9141,290,643.9141,286,639.9141" style="stroke:#B38D22;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="98" x="299" y="644.1245">compoundRule: bool</text><line style="stroke:#A80036;stroke-width:1.5;" x1="280" x2="650" y1="650.7188" y2="650.7188"/><ellipse cx="290" cy="661.7188" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="230" x="299" y="664.9292">initialize(rulePrompt: String, jobId: String) -&gt; void</text><ellipse cx="290" cy="674.5234" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="201" x="299" y="677.7339">checkBasic(rulePrompt: String) -&gt; Boolean</text><ellipse cx="290" cy="687.3281" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="229" x="299" y="690.5386">checkCompound(rulePrompt: String) -&gt; Boolean</text><ellipse cx="290" cy="700.1328" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="232" x="299" y="703.3433">breakdownCompound(rulePrompt: String) -&gt; List</text><ellipse cx="290" cy="712.9375" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="187" x="299" y="716.1479">checkCapability(rule: String) -&gt; Boolean</text><ellipse cx="290" cy="725.7422" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="201" x="299" y="728.9526">breakdownMonolithic(rule: String) -&gt; Tuple</text><ellipse cx="290" cy="738.5469" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="346" x="299" y="741.7573">classifyPropmter(condition: String, prompt: String, classes: List) -&gt; String</text><ellipse cx="290" cy="751.3516" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="224" x="299" y="754.562">raiseExceptionToUser(message: String) -&gt; void</text><ellipse cx="290" cy="764.1563" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="156" x="299" y="767.3667">putRuleInList(rule: String) -&gt; void</text><ellipse cx="290" cy="776.9609" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="11" lengthAdjust="spacingAndGlyphs" textLength="128" x="299" y="780.1714">returnRuleJsonList() -&gt; json</text><path d="M711,645.5 L711,669 L651.17,673 L711,677 L711,700.8984 A0,0 0 0 0 711,700.8984 L1210,700.8984 A0,0 0 0 0 1210,700.8984 L1210,655.5 L1200,645.5 L711,645.5 A0,0 0 0 0 711,645.5 " fill="#FBFB77" filter="url(#f1hddrlm11l24q)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1200,645.5 L1200,655.5 L1210,655.5 L1200,645.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="478" x="717" y="662.5669">Handles the analysis and processing of rule prompts based on specific conditions.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="473" x="717" y="677.6997">It interacts with various APIs and manages the flow of data for rule validation and</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="91" x="717" y="692.8325">decomposition.</text><path d="M794,475.5 L794,480.85 L581.7,461.66 L794,488.85 L794,530.8984 A0,0 0 0 0 794,530.8984 L1127,530.8984 A0,0 0 0 0 1127,530.8984 L1127,485.5 L1117,475.5 L794,475.5 A0,0 0 0 0 794,475.5 " fill="#FBFB77" filter="url(#f1hddrlm11l24q)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1117,475.5 L1117,485.5 L1127,485.5 L1117,475.5 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="312" x="800" y="492.5669">Generates a knowledge graph from a given text input.</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="296" x="803" y="507.6997">It tokenizes the text, infers an entity-relation graph,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="286" x="800" y="522.8325">and reconciles the new graph with the old graph.</text><path d="M6,151 L6,403.125 A0,0 0 0 0 6,403.125 L219,403.125 A0,0 0 0 0 219,403.125 L219,281 L403.42,277 L219,273 L219,161 L209,151 L6,151 A0,0 0 0 0 6,151 " fill="#FBFB77" filter="url(#f1hddrlm11l24q)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M209,151 L209,161 L219,161 L209,151 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="136" x="12" y="168.0669">POST /rule JSON Query:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="12" y="183.1997">{</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="110" x="18" y="198.3325">"job_id": "&lt;GUID&gt;",</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="117" x="18" y="213.4653">"prompt": "&lt;string&gt;"</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="12" y="228.5981">}</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="15" y="243.731"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="157" x="12" y="258.8638">POST /context JSON Query:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="12" y="273.9966">{</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="110" x="18" y="289.1294">"job_id": "&lt;GUID&gt;",</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="18" y="304.2622">"email": "&lt;string&gt;"</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="12" y="319.395">}</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="15" y="334.5278"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="192" x="12" y="349.6606">GET /context/:job_id JSON Query:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="12" y="364.7935">{</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="107" x="18" y="379.9263">"job_id": "&lt;GUID&gt;"</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="12" y="395.0591">}</text><path d="M843,6 L843,231.76 L526.51,270.38 L843,239.76 L843,439.7188 A0,0 0 0 0 843,439.7188 L1078,439.7188 A0,0 0 0 0 1078,439.7188 L1078,16 L1068,6 L843,6 A0,0 0 0 0 843,6 " fill="#FBFB77" filter="url(#f1hddrlm11l24q)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1068,6 L1068,16 L1078,16 L1068,6 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="158" x="849" y="23.0669">POST /rule JSON Response:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="849" y="38.1997">{</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="110" x="855" y="53.3325">"job_id": "&lt;GUID&gt;",</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="120" x="855" y="68.4653">"prompt": "&lt;string&gt;",</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="64" x="855" y="83.5981">"rule_list": [</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="867" y="98.731">{</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="120" x="879" y="113.8638">"prompt": "&lt;string&gt;",</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="87" x="879" y="128.9966">"conditional": {</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="133" x="891" y="144.1294">"choice": "&lt;selection&gt;",</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="88" x="891" y="159.2622">"parameters": {</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="148" x="903" y="174.395">"&lt;parameter&gt;": "&lt;string&gt;"</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="891" y="189.5278">}</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="879" y="204.6606">}</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="867" y="219.7935">}</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="4" x="855" y="234.9263">]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="849" y="250.0591">}</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="852" y="265.1919"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="179" x="849" y="280.3247">POST /context JSON Response:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="849" y="295.4575">{</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="110" x="855" y="310.5903">"job_id": "&lt;GUID&gt;",</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="165" x="855" y="325.7231">"updated_graph": "&lt;graph&gt;"</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="849" y="340.856">}</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="0" x="852" y="355.9888"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="214" x="849" y="371.1216">GET /context/:job_id JSON Response:</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="849" y="386.2544">{</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="110" x="855" y="401.3872">"job_id": "&lt;GUID&gt;",</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="165" x="855" y="416.52">"updated_graph": "&lt;graph&gt;"</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="849" y="431.6528">}</text><!--MD5=[ca2820811feb2e07ff66c6b0ac70bd54]
+@startuml Viewpoint_AI-Core-ms2
+
+' Force layout to left to right
+left to right direction
+package "Viewpoint AI Core" {
+' Define classes with methods
+
+class interfaceAPI <<FastAPI>>{
+    +POST /rule 
+    +POST /context
+    +GET /context/:job_id
+}
+
+package "Utilities"
+{
+class KnowledgeGraphGenerator {
+    #job_id: guid
+    #content: string
+    #context: bool
+    +generateGraph(self, text) -> string 
+    +cleanContent(content) -> string
+    +tokenize(text) -> list[string]
+    +inferErGraph(tokenized_text) -> json
+    +reconcileGraph(self, new_graph, old_graph)
+}
+
+class RuleAnalyzer { 
+    #rulePrompt: string  
+    #jobId: string
+    #ruleList: list[string]
+    #compoundRule: bool
+    +initialize(rulePrompt: String, jobId: String) -> void
+    +checkBasic(rulePrompt: String) -> Boolean
+    +checkCompound(rulePrompt: String) -> Boolean
+    +breakdownCompound(rulePrompt: String) -> List
+    +checkCapability(rule: String) -> Boolean
+    +breakdownMonolithic(rule: String) -> Tuple
+    +classifyPropmter(condition: String, prompt: String, classes: List) -> String
+    +raiseExceptionToUser(message: String) -> void
+    +putRuleInList(rule: String) -> void
+    +returnRuleJsonList() -> json
+}
+}
+
+}
+note right of RuleAnalyzer : Handles the analysis and processing of rule prompts based on specific conditions.\nIt interacts with various APIs and manages the flow of data for rule validation and\ndecomposition.
+
+note right of KnowledgeGraphGenerator : Generates a knowledge graph from a given text input.\n It tokenizes the text, infers an entity-relation graph,\nand reconciles the new graph with the old graph.
+
+
+' JSON Queries to the left of API
+note left of interfaceAPI
+  POST /rule JSON Query:
+  {
+    "job_id": "<GUID>",
+    "prompt": "<string>"
+  }
+
+  POST /context JSON Query:
+  {
+    "job_id": "<GUID>",
+    "email": "<string>"
+  }
+
+  GET /context/:job_id JSON Query:
+  {
+    "job_id": "<GUID>"
+  }
+end note
+
+' JSON Responses to the right of API
+note right of interfaceAPI
+  POST /rule JSON Response:
+  {
+    "job_id": "<GUID>",
+    "prompt": "<string>",
+    "rule_list": [
+        {
+            "prompt": "<string>",
+            "conditional": {
+                "choice": "<selection>",
+                "parameters": {
+                    "<parameter>": "<string>"
+                }
+            }
+        }
+    ]
+  }
+
+  POST /context JSON Response:
+  {
+    "job_id": "<GUID>",
+    "updated_graph": "<graph>"
+  }
+
+  GET /context/:job_id JSON Response:
+  {
+    "job_id": "<GUID>",
+    "updated_graph": "<graph>"
+  }
+end note
+
+
+
+@enduml
+
+@startuml Viewpoint_AI-Core-ms2
+
+left to right direction
+package "Viewpoint AI Core" {
+
+class interfaceAPI <<FastAPI>>{
+    +POST /rule 
+    +POST /context
+    +GET /context/:job_id
+}
+
+package "Utilities"
+{
+class KnowledgeGraphGenerator {
+    #job_id: guid
+    #content: string
+    #context: bool
+    +generateGraph(self, text) -> string 
+    +cleanContent(content) -> string
+    +tokenize(text) -> list[string]
+    +inferErGraph(tokenized_text) -> json
+    +reconcileGraph(self, new_graph, old_graph)
+}
+
+class RuleAnalyzer { 
+    #rulePrompt: string  
+    #jobId: string
+    #ruleList: list[string]
+    #compoundRule: bool
+    +initialize(rulePrompt: String, jobId: String) -> void
+    +checkBasic(rulePrompt: String) -> Boolean
+    +checkCompound(rulePrompt: String) -> Boolean
+    +breakdownCompound(rulePrompt: String) -> List
+    +checkCapability(rule: String) -> Boolean
+    +breakdownMonolithic(rule: String) -> Tuple
+    +classifyPropmter(condition: String, prompt: String, classes: List) -> String
+    +raiseExceptionToUser(message: String) -> void
+    +putRuleInList(rule: String) -> void
+    +returnRuleJsonList() -> json
+}
+}
+
+}
+note right of RuleAnalyzer : Handles the analysis and processing of rule prompts based on specific conditions.\nIt interacts with various APIs and manages the flow of data for rule validation and\ndecomposition.
+
+note right of KnowledgeGraphGenerator : Generates a knowledge graph from a given text input.\n It tokenizes the text, infers an entity-relation graph,\nand reconciles the new graph with the old graph.
+
+
+note left of interfaceAPI
+  POST /rule JSON Query:
+  {
+    "job_id": "<GUID>",
+    "prompt": "<string>"
+  }
+
+  POST /context JSON Query:
+  {
+    "job_id": "<GUID>",
+    "email": "<string>"
+  }
+
+  GET /context/:job_id JSON Query:
+  {
+    "job_id": "<GUID>"
+  }
+end note
+
+note right of interfaceAPI
+  POST /rule JSON Response:
+  {
+    "job_id": "<GUID>",
+    "prompt": "<string>",
+    "rule_list": [
+        {
+            "prompt": "<string>",
+            "conditional": {
+                "choice": "<selection>",
+                "parameters": {
+                    "<parameter>": "<string>"
+                }
+            }
+        }
+    ]
+  }
+
+  POST /context JSON Response:
+  {
+    "job_id": "<GUID>",
+    "updated_graph": "<graph>"
+  }
+
+  GET /context/:job_id JSON Response:
+  {
+    "job_id": "<GUID>",
+    "updated_graph": "<graph>"
+  }
+end note
+
+
+
+@enduml
+
+PlantUML version 1.2020.23(Sun Dec 13 19:14:58 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

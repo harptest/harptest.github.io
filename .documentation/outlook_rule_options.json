@@ -1,0 +1,19 @@
+[
+    {
+        "rule_name": "Name your rule",
+        "conditions": [ 
+            { 
+            "choice": "From/People",
+            "paramater": "Sender"
+            },
+            {} 
+        ],
+        "actions": [
+            { 
+            "choice": "Move to",
+            "paramater": "Folder"
+            },
+            {}
+        ]
+    }
+]

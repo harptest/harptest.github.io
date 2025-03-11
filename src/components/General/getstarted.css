@@ -1,0 +1,42 @@
+@media (min-width: 320px) {
+  .get-started-btn {
+    padding: 1em 1.1em;
+    font-size: 0.5rem;
+    cursor: pointer;
+    border-radius: 2em;
+  }
+}
+
+@media (min-width: 768px) {
+  .get-started-btn {
+    padding: 1em 1.1em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 1.5em;
+  }
+}
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+}
+.get-started-btn {
+  background: rgb(18, 65, 136);
+  background: linear-gradient(
+    90deg,
+    rgba(18, 65, 136, 1) 0%,
+    rgba(67, 164, 229, 1) 100%
+  );
+  border: none;
+  cursor: pointer;
+  border-radius: 2em;
+  color: white;
+}
+
+.get-started-btn:hover {
+  background-color: #add8e6;
+}

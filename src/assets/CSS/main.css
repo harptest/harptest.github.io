@@ -1,0 +1,26 @@
+@import "./base.css";
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+  box-sizing: border-box;
+  overflow-x: hidden;
+  background: radial-gradient(
+      circle at 20% 10%,
+      rgba(16, 52, 114, 0.9),
+      transparent 40%
+    ),
+    radial-gradient(circle at 100% 50%, rgba(15, 55, 123, 0.9), transparent 40%),
+    radial-gradient(circle at 0% 75%, rgba(15, 55, 123, 0.9), transparent 40%),
+    radial-gradient(
+      circle at 100% 100%,
+      rgba(15, 55, 123, 0.9),
+      transparent 30%
+    );
+
+  background-color: #000;
+  background-blend-mode: normal;
+}

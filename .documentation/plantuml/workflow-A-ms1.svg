@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentScriptType="application/ecmascript" contentStyleType="text/css" height="2322px" preserveAspectRatio="none" style="width:1710px;height:2322px;" version="1.1" viewBox="0 0 1710 2322" width="1710px" zoomAndPan="magnify"><defs><filter height="300%" id="fympsstoslc1s" width="300%" x="-1" y="-1"><feGaussianBlur result="blurOut" stdDeviation="2.0"/><feColorMatrix in="blurOut" result="blurOut2" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 .4 0"/><feOffset dx="4.0" dy="4.0" in="blurOut2" result="blurOut3"/><feBlend in="SourceGraphic" in2="blurOut3" mode="normal"/></filter></defs><g><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="2170.8711" style="stroke:#A80036;stroke-width:1.0;" width="10" x="237" y="99.1289"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="308.2656" style="stroke:#A80036;stroke-width:1.0;" width="10" x="391.5" y="517.4922"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="240" style="stroke:#A80036;stroke-width:1.0;" width="10" x="391.5" y="986.4219"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="165.6641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="391.5" y="1313.8203"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="98.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="391.5" y="1566.8828"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="98.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="391.5" y="1752.8125"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="1795.7813" style="stroke:#A80036;stroke-width:1.0;" width="10" x="561" y="155.9609"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="195.7344" style="stroke:#A80036;stroke-width:1.0;" width="10" x="870" y="209.2266"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="420.7969" style="stroke:#A80036;stroke-width:1.0;" width="10" x="986.5" y="434.0938"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="98.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1136.5" y="683.2891"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="1312.7109" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1283" y="957.2891"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="223.9297" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1429" y="1284.6875"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="156.7969" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1584" y="1537.75"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="156.7969" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1584" y="1723.6797"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="1809.7813" style="stroke:#000000;stroke-width:2.0;" width="1554" x="142.5" y="170.9609"/><rect fill="#FFC0CB" filter="url(#fympsstoslc1s)" height="1680.1172" style="stroke:#000000;stroke-width:2.0;" width="1534" x="152.5" y="293.625"/><rect fill="#FFFFFF" height="1604.7188" style="stroke:none;stroke-width:1.0;" width="1534" x="152.5" y="369.0234"/><rect fill="#FFA500" filter="url(#fympsstoslc1s)" height="318.2656" style="stroke:#000000;stroke-width:2.0;" width="942.5" x="301.5" y="586.7578"/><rect fill="#ADD8E6" height="115.2031" style="stroke:none;stroke-width:1.0;" width="942.5" x="301.5" y="789.8203"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="1047.7188" style="stroke:#000000;stroke-width:2.0;" width="1514" x="162.5" y="919.0234"/><rect fill="#FFC0CB" filter="url(#fympsstoslc1s)" height="873.7891" style="stroke:#000000;stroke-width:2.0;" width="1494" x="172.5" y="1085.9531"/><rect fill="#FFFFFF" height="769.2578" style="stroke:none;stroke-width:1.0;" width="1494" x="172.5" y="1190.4844"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="75" x2="75" y1="40.2969" y2="2279"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="241.5" x2="241.5" y1="40.2969" y2="2279"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="396.5" x2="396.5" y1="40.2969" y2="2279"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="565.5" x2="565.5" y1="40.2969" y2="2279"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="874.5" x2="874.5" y1="40.2969" y2="2279"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="991.5" x2="991.5" y1="40.2969" y2="2279"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1141.5" x2="1141.5" y1="40.2969" y2="2279"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1287.5" x2="1287.5" y1="40.2969" y2="2279"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1433.5" x2="1433.5" y1="40.2969" y2="2279"/><line style="stroke:#A80036;stroke-width:1.0;stroke-dasharray:5.0,5.0;" x1="1588.5" x2="1588.5" y1="40.2969" y2="2279"/><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="136" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="122" x="12" y="24.9951">Viewpoint Core API</text><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="136" x="5" y="2278"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="122" x="12" y="2297.9951">Viewpoint Core API</text><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="115" x="182.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="101" x="189.5" y="24.9951">AI Interface API</text><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="115" x="182.5" y="2278"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="101" x="189.5" y="2297.9951">AI Interface API</text><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="166" x="311.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="152" x="318.5" y="24.9951">Text-Generation-WebUI</text><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="166" x="311.5" y="2278"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="152" x="318.5" y="2297.9951">Text-Generation-WebUI</text><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="97" x="515.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="522.5" y="24.9951">RuleAnalyzer</text><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="97" x="515.5" y="2278"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="83" x="522.5" y="2297.9951">RuleAnalyzer</text><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="85" x="830.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="71" x="837.5" y="24.9951">checkBasic</text><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="85" x="830.5" y="2278"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="71" x="837.5" y="2297.9951">checkBasic</text><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="120" x="929.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="106" x="936.5" y="24.9951">checkCompound</text><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="120" x="929.5" y="2278"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="106" x="936.5" y="2297.9951">checkCompound</text><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="152" x="1063.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="138" x="1070.5" y="24.9951">breakdownCompound</text><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="152" x="1063.5" y="2278"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="138" x="1070.5" y="2297.9951">breakdownCompound</text><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="113" x="1229.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="99" x="1236.5" y="24.9951">checkCapability</text><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="113" x="1229.5" y="2278"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="99" x="1236.5" y="2297.9951">checkCapability</text><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="151" x="1356.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="137" x="1363.5" y="24.9951">breakdownMonolithic</text><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="151" x="1356.5" y="2278"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="137" x="1363.5" y="2297.9951">breakdownMonolithic</text><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="131" x="1521.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="117" x="1528.5" y="24.9951">classifierPropmter</text><rect fill="#FEFECE" filter="url(#fympsstoslc1s)" height="30.2969" style="stroke:#A80036;stroke-width:1.5;" width="131" x="1521.5" y="2278"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacingAndGlyphs" textLength="117" x="1528.5" y="2297.9951">classifierPropmter</text><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="2170.8711" style="stroke:#A80036;stroke-width:1.0;" width="10" x="237" y="99.1289"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="308.2656" style="stroke:#A80036;stroke-width:1.0;" width="10" x="391.5" y="517.4922"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="240" style="stroke:#A80036;stroke-width:1.0;" width="10" x="391.5" y="986.4219"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="165.6641" style="stroke:#A80036;stroke-width:1.0;" width="10" x="391.5" y="1313.8203"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="98.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="391.5" y="1566.8828"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="98.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="391.5" y="1752.8125"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="1795.7813" style="stroke:#A80036;stroke-width:1.0;" width="10" x="561" y="155.9609"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="195.7344" style="stroke:#A80036;stroke-width:1.0;" width="10" x="870" y="209.2266"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="420.7969" style="stroke:#A80036;stroke-width:1.0;" width="10" x="986.5" y="434.0938"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="98.5313" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1136.5" y="683.2891"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="1312.7109" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1283" y="957.2891"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="223.9297" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1429" y="1284.6875"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="156.7969" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1584" y="1537.75"/><rect fill="#FFFFFF" filter="url(#fympsstoslc1s)" height="156.7969" style="stroke:#A80036;stroke-width:1.0;" width="10" x="1584" y="1723.6797"/><polygon fill="#A80036" points="225,95.1289,235,99.1289,225,103.1289,229,99.1289" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="75" x2="231" y1="99.1289" y2="99.1289"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="125" x="82" y="94.063">Process rules request</text><path d="M252,55.2969 L252,125.2969 L432,125.2969 L432,65.2969 L422,55.2969 L252,55.2969 " fill="#FBFB77" filter="url(#fympsstoslc1s)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M422,55.2969 L422,65.2969 L432,65.2969 L422,55.2969 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="156" x="258" y="72.3638">POST /rule?job_id=&lt;GUID&gt;</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="258" y="87.4966">{</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="107" x="264" y="102.6294">"prompt": &lt;string&gt;</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="258" y="117.7622">}</text><polygon fill="#A80036" points="549,151.9609,559,155.9609,549,159.9609,553,155.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="247" x2="555" y1="155.9609" y2="155.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="295" x="254" y="150.895">ruleAnalysis = initialize with rule prompt and job_id</text><path d="M142.5,170.9609 L264.5,170.9609 L264.5,177.9609 L254.5,187.9609 L142.5,187.9609 L142.5,170.9609 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="1809.7813" style="stroke:#000000;stroke-width:2.0;" width="1554" x="142.5" y="170.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="77" x="157.5" y="184.0278">ruleAnalysis</text><polygon fill="#A80036" points="858,205.2266,868,209.2266,858,213.2266,862,209.2266" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="571" x2="864" y1="209.2266" y2="209.2266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="70" x="578" y="204.1606">rule prompt</text><path d="M796,222.2266 L796,277.2266 L950,277.2266 L950,232.2266 L940,222.2266 L796,222.2266 " fill="#FBFB77" filter="url(#fympsstoslc1s)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M940,222.2266 L940,232.2266 L950,232.2266 L940,222.2266 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="130" x="802" y="239.2935">Check if rule prompt is</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="132" x="802" y="254.4263">generally a conditional</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="58" x="802" y="269.5591">statement</text><path d="M152.5,293.625 L215.5,293.625 L215.5,300.625 L205.5,310.625 L152.5,310.625 L152.5,293.625 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="1680.1172" style="stroke:#000000;stroke-width:2.0;" width="1534" x="152.5" y="293.625"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="18" x="167.5" y="306.6919">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="239" x="230.5" y="305.8354">[Rule prompt is not a conditional statement]</text><polygon fill="#A80036" points="582,327.8906,572,331.8906,582,335.8906,578,331.8906" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="576" x2="869" y1="331.8906" y2="331.8906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="27" x="588" y="326.8247">false</text><polygon fill="#A80036" points="258,357.0234,248,361.0234,258,365.0234,254,361.0234" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="252" x2="560" y1="361.0234" y2="361.0234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="136" x="264" y="355.9575">Raise exception to user</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="152.5" x2="1686.5" y1="370.0234" y2="370.0234"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="217" x="157.5" y="380.2339">[Rule prompt is a conditional statement]</text><polygon fill="#A80036" points="582,400.9609,572,404.9609,582,408.9609,578,404.9609" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="576" x2="874" y1="404.9609" y2="404.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="24" x="588" y="399.895">true</text><polygon fill="#A80036" points="974.5,430.0938,984.5,434.0938,974.5,438.0938,978.5,434.0938" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="571" x2="980.5" y1="434.0938" y2="434.0938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="70" x="578" y="429.0278">rule prompt</text><path d="M911,447.0938 L911,487.0938 L1068,487.0938 L1068,457.0938 L1058,447.0938 L911,447.0938 " fill="#FBFB77" filter="url(#fympsstoslc1s)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1058,447.0938 L1058,457.0938 L1068,457.0938 L1058,447.0938 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="130" x="917" y="464.1606">Check if rule prompt is</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="136" x="917" y="479.2935">a compound statement</text><polygon fill="#A80036" points="412.5,513.4922,402.5,517.4922,412.5,521.4922,408.5,517.4922" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="406.5" x2="985.5" y1="517.4922" y2="517.4922"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="129" x="418.5" y="512.4263">rule prompt, grammar</text><path d="M316,530.4922 L316,570.4922 L473,570.4922 L473,540.4922 L463,530.4922 L316,530.4922 " fill="#FBFB77" filter="url(#fympsstoslc1s)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M463,530.4922 L463,540.4922 L473,540.4922 L463,530.4922 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="130" x="322" y="547.5591">Check if rule prompt is</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="136" x="322" y="562.6919">a compound statement</text><path d="M301.5,586.7578 L364.5,586.7578 L364.5,593.7578 L354.5,603.7578 L301.5,603.7578 L301.5,586.7578 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="318.2656" style="stroke:#000000;stroke-width:2.0;" width="942.5" x="301.5" y="586.7578"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="18" x="316.5" y="599.8247">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="170" x="379.5" y="598.9683">[Rule is a compound statement]</text><polygon fill="#A80036" points="974.5,621.0234,984.5,625.0234,974.5,629.0234,978.5,625.0234" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="401.5" x2="980.5" y1="625.0234" y2="625.0234"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="24" x="408.5" y="619.9575">true</text><polygon fill="#A80036" points="582,650.1563,572,654.1563,582,658.1563,578,654.1563" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="576" x2="985.5" y1="654.1563" y2="654.1563"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="24" x="588" y="649.0903">true</text><polygon fill="#A80036" points="1124.5,679.2891,1134.5,683.2891,1124.5,687.2891,1128.5,683.2891" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="571" x2="1130.5" y1="683.2891" y2="683.2891"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="70" x="578" y="678.2231">rule prompt</text><path d="M1049,696.2891 L1049,751.2891 L1230,751.2891 L1230,706.2891 L1220,696.2891 L1049,696.2891 " fill="#FBFB77" filter="url(#fympsstoslc1s)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M1220,696.2891 L1220,706.2891 L1230,706.2891 L1220,696.2891 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="160" x="1055" y="713.356">Break down the compound</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="100" x="1055" y="728.4888">statement into its</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="120" x="1055" y="743.6216">constituent subrules</text><polygon fill="#A80036" points="582,777.8203,572,781.8203,582,785.8203,578,781.8203" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="576" x2="1140.5" y1="781.8203" y2="781.8203"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="133" x="588" y="776.7544">constituent subrule list</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="301.5" x2="1244" y1="790.8203" y2="790.8203"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="192" x="306.5" y="801.0308">[Rule is not a compound statement]</text><polygon fill="#A80036" points="974.5,821.7578,984.5,825.7578,974.5,829.7578,978.5,825.7578" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="396.5" x2="980.5" y1="825.7578" y2="825.7578"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="27" x="403.5" y="820.6919">false</text><polygon fill="#A80036" points="582,850.8906,572,854.8906,582,858.8906,578,854.8906" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="576" x2="990.5" y1="854.8906" y2="854.8906"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="27" x="588" y="849.8247">false</text><line style="stroke:#A80036;stroke-width:1.0;" x1="571" x2="613" y1="884.0234" y2="884.0234"/><line style="stroke:#A80036;stroke-width:1.0;" x1="613" x2="613" y1="884.0234" y2="897.0234"/><line style="stroke:#A80036;stroke-width:1.0;" x1="572" x2="613" y1="897.0234" y2="897.0234"/><polygon fill="#A80036" points="582,893.0234,572,897.0234,582,901.0234,578,897.0234" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="120" x="578" y="878.9575">put rule in list of one</text><path d="M162.5,919.0234 L235.5,919.0234 L235.5,926.0234 L225.5,936.0234 L162.5,936.0234 L162.5,919.0234 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="1047.7188" style="stroke:#000000;stroke-width:2.0;" width="1514" x="162.5" y="919.0234"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="28" x="177.5" y="932.0903">loop</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="105" x="250.5" y="931.2339">[for rule in rule list]</text><polygon fill="#A80036" points="1271,953.2891,1281,957.2891,1271,961.2891,1275,957.2891" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="571" x2="1277" y1="957.2891" y2="957.2891"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="23" x="578" y="952.2231">rule</text><polygon fill="#A80036" points="412.5,982.4219,402.5,986.4219,412.5,990.4219,408.5,986.4219" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="406.5" x2="1282" y1="986.4219" y2="986.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="129" x="418.5" y="981.356">rule prompt, grammar</text><path d="M322,999.4219 L322,1069.4219 L467,1069.4219 L467,1009.4219 L457,999.4219 L322,999.4219 " fill="#FBFB77" filter="url(#fympsstoslc1s)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M457,999.4219 L457,1009.4219 L467,1009.4219 L457,999.4219 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="83" x="328" y="1016.4888">Check if rule is</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="104" x="328" y="1031.6216">capabale of being</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="124" x="328" y="1046.7544">automated with rules</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="33" x="328" y="1061.8872">alone</text><path d="M172.5,1085.9531 L235.5,1085.9531 L235.5,1092.9531 L225.5,1102.9531 L172.5,1102.9531 L172.5,1085.9531 " fill="#EEEEEE" style="stroke:#000000;stroke-width:1.0;"/><rect fill="none" height="873.7891" style="stroke:#000000;stroke-width:2.0;" width="1494" x="172.5" y="1085.9531"/><text fill="#000000" font-family="sans-serif" font-size="13" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="18" x="187.5" y="1099.02">alt</text><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="305" x="250.5" y="1098.1636">[Rule is not capable of being automated with rules alone]</text><polygon fill="#A80036" points="1271,1120.2188,1281,1124.2188,1271,1128.2188,1275,1124.2188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="401.5" x2="1277" y1="1124.2188" y2="1124.2188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="27" x="408.5" y="1119.1528">false</text><polygon fill="#A80036" points="582,1149.3516,572,1153.3516,582,1157.3516,578,1153.3516" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="576" x2="1282" y1="1153.3516" y2="1153.3516"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="61" x="588" y="1148.2856">raise error</text><polygon fill="#A80036" points="258,1178.4844,248,1182.4844,258,1186.4844,254,1182.4844" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="252" x2="560" y1="1182.4844" y2="1182.4844"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="136" x="264" y="1177.4185">Raise exception to user</text><line style="stroke:#000000;stroke-width:1.0;stroke-dasharray:2.0,2.0;" x1="172.5" x2="1666.5" y1="1191.4844" y2="1191.4844"/><text fill="#000000" font-family="sans-serif" font-size="11" font-weight="bold" lengthAdjust="spacingAndGlyphs" textLength="283" x="177.5" y="1201.6948">[Rule is capable of being automated with rules alone]</text><polygon fill="#A80036" points="1271,1222.4219,1281,1226.4219,1271,1230.4219,1275,1226.4219" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="396.5" x2="1277" y1="1226.4219" y2="1226.4219"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="24" x="403.5" y="1221.356">true</text><polygon fill="#A80036" points="582,1251.5547,572,1255.5547,582,1259.5547,578,1255.5547" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="576" x2="1282" y1="1255.5547" y2="1255.5547"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="24" x="588" y="1250.4888">true</text><polygon fill="#A80036" points="1417,1280.6875,1427,1284.6875,1417,1288.6875,1421,1284.6875" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="571" x2="1423" y1="1284.6875" y2="1284.6875"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="23" x="578" y="1279.6216">rule</text><polygon fill="#A80036" points="412.5,1309.8203,402.5,1313.8203,412.5,1317.8203,408.5,1313.8203" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="406.5" x2="1428" y1="1313.8203" y2="1313.8203"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="129" x="418.5" y="1308.7544">rule prompt, grammar</text><path d="M281,1326.8203 L281,1351.8203 L508,1351.8203 L508,1336.8203 L498,1326.8203 L281,1326.8203 " fill="#FBFB77" filter="url(#fympsstoslc1s)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M498,1326.8203 L498,1336.8203 L508,1336.8203 L498,1326.8203 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="206" x="287" y="1343.8872">Isolate conditional clause from rule</text><polygon fill="#A80036" points="1417,1378.0859,1427,1382.0859,1417,1386.0859,1421,1382.0859" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="401.5" x2="1423" y1="1382.0859" y2="1382.0859"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="106" x="408.5" y="1377.02">conditional clause</text><polygon fill="#A80036" points="412.5,1407.2188,402.5,1411.2188,412.5,1415.2188,408.5,1411.2188" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="406.5" x2="1428" y1="1411.2188" y2="1411.2188"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="129" x="418.5" y="1406.1528">rule prompt, grammar</text><path d="M296,1424.2188 L296,1449.2188 L493,1449.2188 L493,1434.2188 L483,1424.2188 L296,1424.2188 " fill="#FBFB77" filter="url(#fympsstoslc1s)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M483,1424.2188 L483,1434.2188 L493,1434.2188 L483,1424.2188 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="176" x="302" y="1441.2856">Isolate action clause from rule</text><polygon fill="#A80036" points="1417,1475.4844,1427,1479.4844,1417,1483.4844,1421,1479.4844" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="396.5" x2="1423" y1="1479.4844" y2="1479.4844"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="76" x="403.5" y="1474.4185">action clause</text><polygon fill="#A80036" points="582,1504.6172,572,1508.6172,582,1512.6172,578,1508.6172" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="576" x2="1433" y1="1508.6172" y2="1508.6172"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="188" x="588" y="1503.5513">conditional clause, action clause</text><polygon fill="#A80036" points="1572,1533.75,1582,1537.75,1572,1541.75,1576,1537.75" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="571" x2="1578" y1="1537.75" y2="1537.75"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="203" x="578" y="1532.6841">conditional clause, prompt, classes</text><polygon fill="#A80036" points="412.5,1562.8828,402.5,1566.8828,412.5,1570.8828,408.5,1566.8828" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="406.5" x2="1583" y1="1566.8828" y2="1566.8828"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="165" x="418.5" y="1561.8169">conditional clause, grammar</text><path d="M300,1579.8828 L300,1634.8828 L489,1634.8828 L489,1589.8828 L479,1579.8828 L300,1579.8828 " fill="#FBFB77" filter="url(#fympsstoslc1s)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M479,1579.8828 L479,1589.8828 L489,1589.8828 L479,1579.8828 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="168" x="306" y="1596.9497">Classify conditional clause as</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="152" x="306" y="1612.0825">one of fixed list of outlook</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="114" x="306" y="1627.2153">conditional options</text><polygon fill="#A80036" points="1572,1661.4141,1582,1665.4141,1572,1669.4141,1576,1665.4141" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="396.5" x2="1578" y1="1665.4141" y2="1665.4141"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="74" x="403.5" y="1660.3481">classification</text><polygon fill="#A80036" points="582,1690.5469,572,1694.5469,582,1698.5469,578,1694.5469" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="576" x2="1588" y1="1694.5469" y2="1694.5469"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="74" x="588" y="1689.481">classification</text><polygon fill="#A80036" points="1572,1719.6797,1582,1723.6797,1572,1727.6797,1576,1723.6797" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="571" x2="1578" y1="1723.6797" y2="1723.6797"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="173" x="578" y="1718.6138">action clause, prompt, classes</text><polygon fill="#A80036" points="412.5,1748.8125,402.5,1752.8125,412.5,1756.8125,408.5,1752.8125" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="406.5" x2="1583" y1="1752.8125" y2="1752.8125"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="135" x="418.5" y="1747.7466">action clause, grammar</text><path d="M300,1765.8125 L300,1820.8125 L489,1820.8125 L489,1775.8125 L479,1765.8125 L300,1765.8125 " fill="#FBFB77" filter="url(#fympsstoslc1s)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M479,1765.8125 L479,1775.8125 L489,1775.8125 L479,1765.8125 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="168" x="306" y="1782.8794">Classify conditional clause as</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="152" x="306" y="1798.0122">one of fixed list of outlook</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="84" x="306" y="1813.145">action options</text><polygon fill="#A80036" points="1572,1847.3438,1582,1851.3438,1572,1855.3438,1576,1851.3438" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="396.5" x2="1578" y1="1851.3438" y2="1851.3438"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="74" x="403.5" y="1846.2778">classification</text><polygon fill="#A80036" points="582,1876.4766,572,1880.4766,582,1884.4766,578,1880.4766" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="576" x2="1588" y1="1880.4766" y2="1880.4766"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="74" x="588" y="1875.4106">classification</text><line style="stroke:#A80036;stroke-width:1.0;" x1="571" x2="613" y1="1909.6094" y2="1909.6094"/><line style="stroke:#A80036;stroke-width:1.0;" x1="613" x2="613" y1="1909.6094" y2="1922.6094"/><line style="stroke:#A80036;stroke-width:1.0;" x1="572" x2="613" y1="1922.6094" y2="1922.6094"/><polygon fill="#A80036" points="582,1918.6094,572,1922.6094,582,1926.6094,578,1922.6094" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="285" x="578" y="1904.5435">put conditional and action clause in rule JSON list</text><polygon fill="#A80036" points="258,1947.7422,248,1951.7422,258,1955.7422,254,1951.7422" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="252" x2="565" y1="1951.7422" y2="1951.7422"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="114" x="264" y="1946.6763">return rule JSON list</text><polygon fill="#A80036" points="86,2130.9375,76,2134.9375,86,2138.9375,82,2134.9375" style="stroke:#A80036;stroke-width:1.0;"/><line style="stroke:#A80036;stroke-width:1.0;" x1="80" x2="236" y1="2134.9375" y2="2134.9375"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="138" x="92" y="2129.8716">Response: rule JSON list</text><path d="M252,1992.7422 L252,2259.7422 L449,2259.7422 L449,2002.7422 L439,1992.7422 L252,1992.7422 " fill="#FBFB77" filter="url(#fympsstoslc1s)" style="stroke:#A80036;stroke-width:1.0;"/><path d="M439,1992.7422 L439,2002.7422 L449,2002.7422 L439,1992.7422 " fill="#FBFB77" style="stroke:#A80036;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="126" x="258" y="2009.8091">Response: POST /rule</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="258" y="2024.9419">{</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="64" x="264" y="2040.0747">"rule_list": [</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="270" y="2055.2075">{</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="110" x="282" y="2070.3403">"prompt": &lt;string&gt;,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="87" x="282" y="2085.4731">"conditional": {</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="123" x="294" y="2100.606">"choice": &lt;selection&gt;,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="88" x="294" y="2115.7388">"parameters": {</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="128" x="306" y="2130.8716">&lt;parameter&gt;: &lt;string&gt;</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="297" y="2146.0044">}</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="63" x="258" y="2161.1372">, "action": {</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="123" x="294" y="2176.27">"choice": &lt;selection&gt;,</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="88" x="294" y="2191.4028">"parameters": {</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="128" x="306" y="2206.5356">&lt;parameter&gt;: &lt;string&gt;</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="34" x="297" y="2221.6685">}        }</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="4" x="270" y="2236.8013">]</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacingAndGlyphs" textLength="5" x="258" y="2251.9341">}</text><!--MD5=[2065af1d94e222e3b8e9a6ca45bbba35]
+@startuml workflow-A-ms1
+
+' Define actors and systems
+participant "Viewpoint Core API" as cAPI
+participant "AI Interface API" as API
+participant "Text-Generation-WebUI" as AI
+participant "RuleAnalyzer" as RA
+participant "checkBasic" as checkB
+participant "checkCompound" as checkComp
+participant "breakdownCompound" as breakC
+participant "checkCapability" as checkCap
+participant "breakdownMonolithic" as breakM
+participant "classifierPropmter" as classP
+
+' Sequence of interactions
+
+cAPI -> API : Process rules request
+note right: POST /rule?job_id=<GUID> \n{\n  "prompt": <string>\n}
+activate API
+API -> RA : ruleAnalysis = initialize with rule prompt and job_id
+activate RA
+
+group ruleAnalysis
+
+RA -> checkB : rule prompt
+activate checkB
+note over checkB
+    Check if rule prompt is 
+    generally a conditional
+    statement
+end note
+
+alt #Pink Rule prompt is not a conditional statement
+    checkB -> RA : false
+    RA -> API : Raise exception to user
+else #White Rule prompt is a conditional statement
+    checkB -> RA : true
+    deactivate checkB
+    RA -> checkComp : rule prompt
+    activate checkComp
+    note over checkComp
+        Check if rule prompt is
+        a compound statement
+    end note
+    checkComp -> AI : rule prompt, grammar
+    note over AI
+        Check if rule prompt is
+        a compound statement
+    end note
+    activate AI
+    alt #Orange Rule is a compound statement
+        AI -> checkComp : true
+        checkComp -> RA : true
+        RA -> breakC : rule prompt
+        activate breakC
+        note over breakC
+            Break down the compound
+            statement into its
+            constituent subrules
+        end note
+        breakC -> RA : constituent subrule list
+        deactivate breakC
+    else #LightBlue Rule is not a compound statement
+        AI -> checkComp : false
+        deactivate AI
+        checkComp -> RA : false
+        deactivate checkComp
+        RA -> RA : put rule in list of one
+    end
+    loop for rule in rule list
+    RA -> checkCap : rule
+    activate checkCap
+    checkCap -> AI : rule prompt, grammar
+    activate AI
+    note over AI
+        Check if rule is
+        capabale of being 
+        automated with rules
+        alone
+    end note
+    alt #Pink Rule is not capable of being automated with rules alone
+        AI -> checkCap : false
+        checkCap -> RA : raise error
+        RA -> API : Raise exception to user 
+    else #White Rule is capable of being automated with rules alone
+        AI -> checkCap : true
+        deactivate AI
+        checkCap -> RA : true
+        RA -> breakM : rule
+        activate breakM
+        breakM -> AI : rule prompt, grammar
+        activate AI
+        note over AI
+            Isolate conditional clause from rule
+        end note
+        AI -> breakM : conditional clause
+        breakM -> AI : rule prompt, grammar
+        note over AI
+            Isolate action clause from rule
+        end note
+        AI -> breakM : action clause
+        deactivate AI
+        breakM -> RA : conditional clause, action clause
+        deactivate breakM
+        RA -> classP : conditional clause, prompt, classes
+        activate classP
+        classP -> AI : conditional clause, grammar
+        activate AI
+        note over AI
+            Classify conditional clause as
+            one of fixed list of outlook
+            conditional options
+        end note
+        AI -> classP : classification
+        deactivate AI
+        classP -> RA : classification
+        deactivate classP
+
+        RA -> classP : action clause, prompt, classes
+        activate classP
+        classP -> AI : action clause, grammar
+        activate AI
+        note over AI
+            Classify conditional clause as
+            one of fixed list of outlook
+            action options
+        end note
+        AI -> classP : classification
+        deactivate AI
+        classP -> RA : classification
+        deactivate classP
+        RA -> RA : put conditional and action clause in rule JSON list
+        RA -> API : return rule JSON list
+        deactivate RA
+    end
+    end
+end
+
+end group
+
+API -> cAPI : Response: rule JSON list
+note right: Response: POST /rule \n{\n  "rule_list": [\n    {\n        "prompt": <string>,\n        "conditional": {\n            "choice": <selection>,\n            "parameters": {\n                <parameter>: <string>\n             }\n, "action": {\n            "choice": <selection>,\n            "parameters": {\n                <parameter>: <string>\n             }        }\n    ]\n}
+' Conclude the diagram
+@enduml
+
+@startuml workflow-A-ms1
+
+participant "Viewpoint Core API" as cAPI
+participant "AI Interface API" as API
+participant "Text-Generation-WebUI" as AI
+participant "RuleAnalyzer" as RA
+participant "checkBasic" as checkB
+participant "checkCompound" as checkComp
+participant "breakdownCompound" as breakC
+participant "checkCapability" as checkCap
+participant "breakdownMonolithic" as breakM
+participant "classifierPropmter" as classP
+
+
+cAPI -> API : Process rules request
+note right: POST /rule?job_id=<GUID> \n{\n  "prompt": <string>\n}
+activate API
+API -> RA : ruleAnalysis = initialize with rule prompt and job_id
+activate RA
+
+group ruleAnalysis
+
+RA -> checkB : rule prompt
+activate checkB
+note over checkB
+    Check if rule prompt is 
+    generally a conditional
+    statement
+end note
+
+alt #Pink Rule prompt is not a conditional statement
+    checkB -> RA : false
+    RA -> API : Raise exception to user
+else #White Rule prompt is a conditional statement
+    checkB -> RA : true
+    deactivate checkB
+    RA -> checkComp : rule prompt
+    activate checkComp
+    note over checkComp
+        Check if rule prompt is
+        a compound statement
+    end note
+    checkComp -> AI : rule prompt, grammar
+    note over AI
+        Check if rule prompt is
+        a compound statement
+    end note
+    activate AI
+    alt #Orange Rule is a compound statement
+        AI -> checkComp : true
+        checkComp -> RA : true
+        RA -> breakC : rule prompt
+        activate breakC
+        note over breakC
+            Break down the compound
+            statement into its
+            constituent subrules
+        end note
+        breakC -> RA : constituent subrule list
+        deactivate breakC
+    else #LightBlue Rule is not a compound statement
+        AI -> checkComp : false
+        deactivate AI
+        checkComp -> RA : false
+        deactivate checkComp
+        RA -> RA : put rule in list of one
+    end
+    loop for rule in rule list
+    RA -> checkCap : rule
+    activate checkCap
+    checkCap -> AI : rule prompt, grammar
+    activate AI
+    note over AI
+        Check if rule is
+        capabale of being 
+        automated with rules
+        alone
+    end note
+    alt #Pink Rule is not capable of being automated with rules alone
+        AI -> checkCap : false
+        checkCap -> RA : raise error
+        RA -> API : Raise exception to user 
+    else #White Rule is capable of being automated with rules alone
+        AI -> checkCap : true
+        deactivate AI
+        checkCap -> RA : true
+        RA -> breakM : rule
+        activate breakM
+        breakM -> AI : rule prompt, grammar
+        activate AI
+        note over AI
+            Isolate conditional clause from rule
+        end note
+        AI -> breakM : conditional clause
+        breakM -> AI : rule prompt, grammar
+        note over AI
+            Isolate action clause from rule
+        end note
+        AI -> breakM : action clause
+        deactivate AI
+        breakM -> RA : conditional clause, action clause
+        deactivate breakM
+        RA -> classP : conditional clause, prompt, classes
+        activate classP
+        classP -> AI : conditional clause, grammar
+        activate AI
+        note over AI
+            Classify conditional clause as
+            one of fixed list of outlook
+            conditional options
+        end note
+        AI -> classP : classification
+        deactivate AI
+        classP -> RA : classification
+        deactivate classP
+
+        RA -> classP : action clause, prompt, classes
+        activate classP
+        classP -> AI : action clause, grammar
+        activate AI
+        note over AI
+            Classify conditional clause as
+            one of fixed list of outlook
+            action options
+        end note
+        AI -> classP : classification
+        deactivate AI
+        classP -> RA : classification
+        deactivate classP
+        RA -> RA : put conditional and action clause in rule JSON list
+        RA -> API : return rule JSON list
+        deactivate RA
+    end
+    end
+end
+
+end group
+
+API -> cAPI : Response: rule JSON list
+note right: Response: POST /rule \n{\n  "rule_list": [\n    {\n        "prompt": <string>,\n        "conditional": {\n            "choice": <selection>,\n            "parameters": {\n                <parameter>: <string>\n             }\n, "action": {\n            "choice": <selection>,\n            "parameters": {\n                <parameter>: <string>\n             }        }\n    ]\n}
+@enduml
+
+PlantUML version 1.2020.23(Sun Dec 13 19:14:58 GMT 2020)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

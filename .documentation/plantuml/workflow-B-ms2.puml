@@ -1,0 +1,114 @@
+@startuml workflow-B-ms2
+
+' Define actors and systems
+participant "Viewpoint Core API" as cAPI
+participant "AI Interface API" as API
+participant "Text-Generation-WebUI" as AI
+
+' Define the KnowledgeGraphGenerator group
+participant "knowledgeGraphGenerator" as KGG
+
+
+
+' Sequence of interactions
+cAPI -> API : Context processing request
+note right: POST /context \n{\n  "job_id": <GUID>,\n  "email": <string>\n}
+activate API
+API -> KGG : contextUpdater = initialize with email content, headers, and job_id
+
+group contextUpdater <knowledgeGraphGenerator>
+
+participant "cleanText" as Cleaner
+participant "tokenize" as Tokenizer
+participant "generateERGraph" as ERGG
+participant "reconcileGraph" as RG
+participant "contextualizeEmail" as CE
+
+activate KGG
+KGG -> Cleaner : raw email content
+activate Cleaner
+Cleaner -> KGG : cleaned email content
+deactivate Cleaner
+
+KGG -> Tokenizer : cleaned email content 
+activate Tokenizer
+note over Tokenizer
+    Tokenize the email content
+    into individual sentences
+end note
+Tokenizer -> KGG : tokenized sentences
+deactivate Tokenizer
+
+loop #GreenYellow For each sentence
+KGG -> ERGG : tokenized sentences
+
+activate ERGG
+note over ERGG
+    Generate an ER Graph for each sentence
+end note
+
+ERGG -> AI : sentence text
+activate AI
+note over AI
+    Generate an ER Graph for the given sentence
+    using the provided grammar file
+end note
+AI -> ERGG : ER Graph
+deactivate AI
+
+ERGG -> KGG : list of sentence ER Graphs
+deactivate ERGG
+
+    KGG -> RG : sentence ER Graph, currnet email Graph
+    activate RG
+    note over RG
+        reconcile the given sentence 
+        ER Graph with the current 
+        email Graph
+    end note
+    RG -> KGG : updated email Graph
+    deactivate RG
+end
+
+KGG -> CE : updated email Graph, metadata
+activate CE
+note over CE
+    update the email graph
+    with information from metadata,
+    such as sender and time
+end note
+CE -> KGG : updated email graph with actor information
+deactivate CE
+
+
+KGG -> API : GET /context/:job_id
+activate API
+note over API
+    Get the current context graph
+    for the given job_id to 
+    obfuscate the user identity
+end note
+API -> KGG : context graph
+note right: Response: GET /context:job_id \n{\n  "job_id": <GUID>,\n  "context": <graph>\n} 
+
+deactivate API
+
+KGG -> RG : user context graph, email knowledge graph
+activate RG
+note over RG
+    reconcile the total user context graph
+    with the individual, contextualized
+    email knowledge graph
+end note
+RG -> KGG : updated context graph
+deactivate RG
+
+end group
+KGG -> API : refined context graph
+
+deactivate KGG
+API -> cAPI : Response: refined context graph
+note right: Response: POST /context \n{\n  "job_id": <GUID>,\n  "updated_graph": <graph>\n} 
+deactivate API
+
+@enduml

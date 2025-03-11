@@ -1,0 +1,350 @@
+[
+  {
+    "customer": "CFP",
+    "user_story": "As a CFP, I want to automatically remove spam so that I can focus on emails from my clientele.",
+    "acceptance_criteria": [
+        "Decreases the amount of spam email received by 85%",
+        "Is easy to use for non-tech-savvy people."
+    ],
+    "prompt": "Filter out spam emails",
+    "emails": {
+        "positive": "Email subject: You've won a prize! Email body: Click here to claim your reward...",
+        "negative": "Email subject: Client meeting request. Email body: I'd like to schedule a meeting to discuss my financial plan...",
+        "unclear": "Email subject: Limited time offer. Email body: Don't miss out on this exclusive offer..."
+    },
+    "outlook_rule": {
+        "conditions": [
+            {"condition": "subject or body includes <text>", "parameters": {"text": ["prize", "won", "reward", "click here", "limited time offer", "exclusive offer"]}}
+        ],
+        "actions": [
+            {"action": "move to folder <folder_name>", "parameters": {"folder_name": "Junk"}}
+        ]
+    }
+  },
+  {
+    "customer": "Customer Service Representative",
+    "user_story": "As a Customer Service Representative, I to identify urgent customer emails so that I can address them promptly.",
+    "acceptance_criteria": [
+      "Flags urgent emails with at least 90% accuracy based on user-defined keywords.",
+      "Allows customization of urgency flags and keywords."
+    ],
+    "prompt": "Flag urgent customer emails with words like 'complaint' or 'refund'",
+    "emails": {
+      "positive": "Email subject: Refund request. Email body: I am not satisfied with my purchase and would like a refund...",
+      "negative": "Email subject: New product inquiry. Email body: Can you provide more details about your new product?",
+      "unclear": "Email subject: Issue with my order. Email body: There seems to be an issue with my recent order..."
+    },
+    "outlook_rule": {
+      "conditions": [ 
+          {"condition": "body includes <text>", "parameters":{"text": ["complaint", "refund"]}},
+          {"condition": "subject or body  includes <text>", "parameters":{"text": ["complaint", "refund"]}}
+      ],
+      "actions": [ 
+          {"action": "mark with importance <importance_level>", "parameters":{"importance_level": "high"}},
+          {"action": "move to folder <folder_name>", "parameters":{"folder_name": "urgent"}}
+      ]
+  }
+  },
+  {
+    "customer": "Recruiter",
+    "user_story": "As a Recruiter, I want to filter out resumes that don't meet specific criteria (e.g., job title keywords) so that I can focus on qualified candidates.",
+    "acceptance_criteria": [
+        "Filters resumes with at least 75% accuracy based on predefined criteria.",
+        "Offers an easy-to-use interface for setting up resume filtering rules."
+    ],
+    "prompt": "Filter resumes by job title keywords",
+    "emails": {
+        "positive": "Email subject: Application for Software Engineer position. Email body: Please find attached my resume for the Software Engineer position...",
+        "negative": "Email subject: Application for Marketing Specialist position. Email body: I am interested in the Marketing Specialist role...",
+        "unclear": "Email subject: Job application. Email body: I would like to apply for the job opening at your company..."
+    },
+    "outlook_rule": {
+        "conditions": [
+            {"condition": "subject or body includes <text>", "parameters": {"text": ["Software Engineer", "Developer", "Programmer"]}}
+        ],
+        "actions": [
+            {"action": "move to folder <folder_name>", "parameters": {"folder_name": "Qualified Resumes"}},
+            {"action": "categorize as <category>", "parameters": {"category": "Qualified"}}
+        ]
+    }
+  },
+  {
+    "customer": "Doctor (or receptionist)",
+    "user_story": "As a Doctor (or receptionist at a practice), I want to categorize patient emails by urgency (e.g., appointment reminders, medication refill requests, urgent medical concerns) so that I can prioritize communication with my patients.",
+    "acceptance_criteria": [
+        "Classifies patient emails with at least 85% accuracy based on predefined urgency categories.",
+        "Integrates with medical record systems to identify patients and flag potential medication interactions."
+    ],
+    "prompt": "Categorize patient emails by urgency",
+    "emails": {
+        "positive": "Email subject: Urgent medical concern. Email body: I am experiencing severe pain and need immediate assistance...",
+        "negative": "Email subject: Thank you. Email body: Thank you for the excellent care during my last visit...",
+        "unclear": "Email subject: Medication refill request. Email body: I need a refill for my prescription medication..."
+    },
+    "outlook_rule": {
+        "conditions": [
+            {"condition": "subject or body includes <text>", "parameters": {"text": ["urgent", "immediate", "ASAP", "emergency", "refill", "appointment"]}}
+        ],
+        "actions": [
+            {"action": "move to folder <folder_name>", "parameters": {"folder_name": "Urgent Communications"}},
+            {"action": "categorize as <category>", "parameters": {"category": "Urgent"}}
+        ]
+    }
+  },
+  {
+    "customer": "Researcher",
+    "user_story": "As a Researcher, I want to automatically filter out irrelevant emails from grant applications or academic journals so that I can focus on high-quality research publications.",
+    "acceptance_criteria": [
+        "Identifies relevant research publications with at least 70% accuracy based on user-defined keywords and research areas.",
+        "Offers keyword and research area suggestions based on the user's recent projects."
+    ],
+    "prompt": "Filter emails related to research publications",
+    "emails": {
+        "positive": "Email subject: Research grant opportunity. Email body: We are pleased to invite you to apply for our latest research grant...",
+        "negative": "Email subject: Conference invitation. Email body: You are invited to attend our upcoming conference...",
+        "unclear": "Email subject: Research paper submission. Email body: Please find attached my research paper for your review..."
+    },
+    "outlook_rule": {
+        "conditions": [
+            {"condition": "subject or body includes <text>", "parameters": {"text": ["grant", "research", "publication", "journal", "study", "paper"]}}
+        ],
+        "actions": [
+            {"action": "move to folder <folder_name>", "parameters": {"folder_name": "Research Publications"}},
+            {"action": "categorize as <category>", "parameters": {"category": "Research"}}
+        ]
+    }
+  },
+  {
+    "customer": "Lawyer",
+    "user_story": "As a Lawyer, I want to identify and organize emails containing potentially privileged communications with clients so that I can ensure client confidentiality.",
+    "acceptance_criteria": [
+      "Flags emails with potential privilege with at least 75% accuracy based on keywords and sender/recipient information.",
+      "Offers the option to move flagged emails to a secure folder for further review."
+    ],
+    "prompt": "Identify and organize privileged communications emails",
+    "emails": {
+      "positive": "Email subject: Confidential client matter. Email body: Please find the attached documents for your review...",
+      "negative": "Email subject: Office party invitation. Email body: Join us for the office party next Friday...",
+      "unclear": "Email subject: Legal advice needed. Email body: I need legal advice regarding a matter with my business..."
+    },
+    "outlook_rule": {
+      "conditions": [
+          {"condition": "body includes <text>", "parameters": {"text": ["privileged", "confidential"]}},
+          {"condition": "subject or body includes <text>", "parameters": {"text": ["privileged", "confidential"]}},
+          {"condition": "marked as sensitivity <sensitivity_level>", "parameters": {"sensitivity_level": "confidential"}},
+          {"condition": "marked as importance <importance_level>", "parameters": {"importance_level": "high"}}
+      ],
+      "actions": [
+          {"action": "move to folder <folder_name>", "parameters": {"folder_name": "Privileged Communications"}},
+          {"action": "categorize as <category>", "parameters": {"category": "Privileged"}}
+      ]
+  }    
+  },
+  {
+    "customer": "Marketing Director",
+    "user_story": "As a Marketing Director, I want to automatically identify and prioritize emails from key industry influencers so that I can quickly respond to collaboration opportunities and maintain strong industry relationships.",
+    "acceptance_criteria": [
+        "Flags emails from key industry influencers with at least 80% accuracy based on predefined criteria such as sender's domain and relevant keywords.",
+        "Allows customization of influencer identification criteria to adapt to new and emerging influencers."
+    ],
+    "prompt": "Identify and prioritize emails from key industry influencers",
+    "emails": {
+        "positive": "Email subject: Collaboration opportunity with influencer. Email body: We would like to discuss a potential collaboration...",
+        "negative": "Email subject: General inquiry. Email body: Can you provide more details about your products?",
+        "unclear": "Email subject: Social media mention. Email body: You were mentioned in a recent post by an industry influencer..."
+    },
+    "outlook_rule": {
+        "conditions": [
+            {"condition": "sender address includes <text>", "parameters": {"text": ["influencer1.com", "influencer2.com", "industrypublication.com"]}},
+            {"condition": "subject or body includes <text>", "parameters": {"text": ["collaboration", "influencer", "partnership", "opportunity"]}}
+        ],
+        "actions": [
+            {"action": "categorize as <category>", "parameters": {"category": "Influencer"}},
+            {"action": "move to folder <folder_name>", "parameters": {"folder_name": "Influencer Communications"}},
+            {"action": "mark with importance <importance_level>", "parameters": {"importance_level": "high"}}
+        ]
+    }
+  },
+  {
+    "customer": "Financial Analyst",
+    "user_story": "As a Financial Analyst, I want to automatically identify emails containing important financial information like stock quotes, market updates, or earnings reports so that I can stay informed about relevant market trends.",
+    "acceptance_criteria": [
+        "Flags emails with financial information with at least 75% accuracy based on keywords, sender information, and attachment analysis.",
+        "Allows customization of keywords and financial data sources to track specific investments or industries."
+    ],
+    "prompt": "Identify financial information in emails",
+    "emails": {
+        "positive": "Email subject: Market update. Email body: Here are the latest stock market trends...",
+        "negative": "Email subject: Team outing. Email body: Let's plan a team outing for next month...",
+        "unclear": "Email subject: Quarterly earnings report. Email body: Please find attached the latest earnings report..."
+    },
+    "outlook_rule": {
+        "conditions": [
+            {"condition": "body includes <text>", "parameters": {"text": ["stock quotes", "market update", "earnings report"]}},
+            {"condition": "subject or body includes <text>", "parameters": {"text": ["stock quotes", "market update", "earnings report"]}},
+            {"condition": "sender address includes <text>", "parameters": {"text": ["finance-news.com", "marketwatch.com", "bloomberg.com"]}},
+            {"condition": "message has an attachment"}
+        ],
+        "actions": [
+            {"action": "categorize as <category>", "parameters": {"category": "Financial Information"}},
+            {"action": "move to folder <folder_name>", "parameters": {"folder_name": "Financial Updates"}}
+        ]
+    }
+  },
+  {
+    "customer": "Teacher",
+    "user_story": "As a Teacher, I want to automatically categorize student emails by subject or course name so that I can quickly identify emails related to specific classes and respond accordingly.",
+    "acceptance_criteria": [
+      "Classifies student emails by subject or course with at least 80% accuracy based on keywords and sender information.",
+      "Integrates with learning management systems (LMS) to link emails with specific courses and student assignments."
+    ],
+    "prompt": "Categorize student emails by course",
+    "emails": {
+      "positive": "Email subject: Question about Math 101 assignment. Email body: I need help with the homework for Math 101...",
+      "negative": "Email subject: School event. Email body: Join us for the upcoming school event...",
+      "unclear": "Email subject: Assignment submission for History 202. Email body: Please find attached my assignment for History 202..."
+    },
+    "outlook_rule": {
+      "conditions": [
+          {"condition": "subject includes <text>", "parameters": {"text": ["Math", "Science", "History", "English"]}},
+          {"condition": "body includes <text>", "parameters": {"text": ["Math", "Science", "History", "English"]}},
+          {"condition": "subject or body includes <text>", "parameters": {"text": ["Math", "Science", "History", "English"]}}
+      ],
+      "actions": [
+          {"action": "categorize as <category>", "parameters": {"category": "Math"}},
+          {"action": "move to folder <folder_name>", "parameters": {"folder_name": "Math"}},
+          {"action": "categorize as <category>", "parameters": {"category": "Science"}},
+          {"action": "move to folder <folder_name>", "parameters": {"folder_name": "Science"}},
+          {"action": "categorize as <category>", "parameters": {"category": "History"}},
+          {"action": "move to folder <folder_name>", "parameters": {"folder_name": "History"}},
+          {"action": "categorize as <category>", "parameters": {"category": "English"}},
+          {"action": "move to folder <folder_name>", "parameters": {"folder_name": "English"}}
+      ]
+    }
+  },
+  {
+    "customer": "Customer Support Agent",
+    "user_story": "As a customer support agent, I want to filter emails that are from specific senders (e.g., customers or internal teams) or sent to particular recipients (e.g., specific support personnel) so that I can quickly access and respond to relevant communications.",
+    "acceptance_criteria": [
+        "Correctly filters emails from specific senders or recipients with at least 80% accuracy.",
+        "Provides an option to categorize or move these emails to designated folders for streamlined access."
+    ],
+    "prompt": "Filter emails from specific senders or recipients",
+    "emails": {
+        "positive": "Email subject: Customer complaint. Email body: I am writing to express my dissatisfaction with the recent service...",
+        "negative": "Email subject: Team outing. Email body: Don't forget about our team outing next weekend...",
+        "unclear": "Email subject: Service inquiry. Email body: I have a question about the services you offer..."
+    },
+    "outlook_rule": {
+        "conditions": [
+            {"condition": "from <sender>", "parameters": {"sender": ["customer1@example.com", "customer2@example.com"]}},
+            {"condition": "to <recipient>", "parameters": {"recipient": ["support1@example.com", "support2@example.com"]}},
+            {"condition": "received for <recipient>", "parameters": {"recipient": ["support1@example.com", "support2@example.com"]}}
+        ],
+        "actions": [
+            {"action": "move to folder <folder_name>", "parameters": {"folder_name": "Customer Communications"}},
+            {"action": "categorize as <category>", "parameters": {"category": "Customer"}}
+        ]
+    }    
+  },
+  {
+    "customer": "Employee",
+    "user_story": "As an employee, I want to filter emails where I am either the sender or recipient so that I can easily track my communication and ensure timely responses.",
+    "acceptance_criteria": [
+        "Accurately filters emails where the user is the sender or recipient with at least 90% accuracy.",
+        "Provides options to categorize these emails or move them to specific folders for better organization."
+    ],
+    "prompt": "Filter emails to or from the user",
+    "emails": {
+        "positive": "Email subject: Meeting follow-up. Email body: As discussed in our meeting, please find the attached notes...",
+        "negative": "Email subject: Team event. Email body: We are organizing a team event next month...",
+        "unclear": "Email subject: Project update. Email body: The project update will be shared in the next meeting..."
+    },
+    "outlook_rule": {
+        "conditions": [
+            {"condition": "user is the sender"},
+            {"condition": "user is on the To line"},
+            {"condition": "user is cc'ed"},
+            {"condition": "user is either cc'ed or on the To line"},
+            {"condition": "user is the ONLY recipient"}
+        ],
+        "actions": [
+            {"action": "move to folder <folder_name>", "parameters": {"folder_name": "Your Communications"}},
+            {"action": "categorize as <category>", "parameters": {"category": "Communications"}}
+        ]
+    }
+  },
+  {
+    "customer": "Sales Manager",
+    "user_story": "As a sales manager, I want to filter emails based on specific text in the sender or recipient addresses so that I can quickly identify and manage communications with key clients and partners.",
+    "acceptance_criteria": [
+        "Accurately filters emails based on specific text in the sender or recipient addresses with at least 85% accuracy.",
+        "Provides options to categorize these emails or move them to specific folders for efficient management."
+    ],
+    "prompt": "Filter emails by sender or recipient address text",
+    "emails": {
+        "positive": "Email subject: Quarterly review meeting. Email body: Dear sales team, please find attached the quarterly review documents...",
+        "negative": "Email subject: Company newsletter. Email body: Welcome to our monthly company newsletter...",
+        "unclear": "Email subject: Client inquiry. Email body: I have a question regarding our recent order..."
+    },
+    "outlook_rule": {
+        "conditions": [
+            {"condition": "sender address includes <text>", "parameters": {"text": ["clientcompany.com", "partner.com"]}},
+            {"condition": "recipient address includes <text>", "parameters": {"text": ["sales@mycompany.com", "support@mycompany.com"]}}
+        ],
+        "actions": [
+            {"action": "move to folder <folder_name>", "parameters": {"folder_name": "Key Communications"}},
+            {"action": "categorize as <category>", "parameters": {"category": "Key Clients"}}
+        ]
+    }
+  },
+  {
+    "customer": "Project Manager",
+    "user_story": "As a project manager, I want to filter emails based on the date they were received so that I can efficiently review communications within specific project phases and ensure timely responses.",
+    "acceptance_criteria": [
+        "Accurately filters emails based on the received date with at least 90% accuracy.",
+        "Provides options to categorize these emails or move them to specific folders for organized project management."
+    ],
+    "prompt": "Filter emails by received date",
+    "emails": {
+        "positive": "Email subject: Project kickoff meeting. Email body: Dear team, please find attached the agenda for our project kickoff meeting...",
+        "negative": "Email subject: Company holiday notice. Email body: Please be informed that the office will be closed for the upcoming holidays...",
+        "unclear": "Email subject: Budget approval. Email body: The budget for the next quarter is currently under review..."
+    },
+    "outlook_rule": {
+        "conditions": [
+            {"condition": "received before <date>", "parameters": {"date": "2024-06-01"}},
+            {"condition": "received after <date>", "parameters": {"date": "2024-05-01"}}
+        ],
+        "actions": [
+            {"action": "move to folder <folder_name>", "parameters": {"folder_name": "My Project Phase 1"}},
+            {"action": "categorize as <category>", "parameters": {"category": "Phase 1"}}
+        ]
+    }
+  },
+  {
+    "customer": "IT Administrator",
+    "user_story": "As an IT administrator, I want to filter emails based on their size so that I can manage large attachments and optimize storage usage efficiently.",
+    "acceptance_criteria": [
+        "Accurately filters emails based on their size with at least 85% accuracy.",
+        "Provides options to categorize these emails or move them to specific folders for better storage management."
+    ],
+    "prompt": "Filter emails by message size",
+    "emails": {
+        "positive": "Email subject: Project documentation. Email body: Attached are the project documents as requested. (20MB attachment)",
+        "negative": "Email subject: Weekly update. Email body: Here is the weekly update for the project...",
+        "unclear": "Email subject: Meeting agenda. Email body: Please find the agenda for our next meeting attached. (2MB attachment)"
+    },
+    "outlook_rule": {
+        "conditions": [
+            {"condition": "message is at least <file_size>", "parameters": {"file_size": "10MB"}},
+            {"condition": "message is at most <file_size>", "parameters": {"file_size": "1MB"}}
+        ],
+        "actions": [
+            {"action": "move to folder <folder_name>", "parameters": {"folder_name": "Large Attachments"}},
+            {"action": "categorize as <category>", "parameters": {"category": "Large Files"}}
+        ]
+    }
+  }             
+  ]
+  

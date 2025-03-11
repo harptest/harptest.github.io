@@ -1,0 +1,144 @@
+@startuml workflow-A-ms1
+
+' Define actors and systems
+participant "Viewpoint Core API" as cAPI
+participant "AI Interface API" as API
+participant "Text-Generation-WebUI" as AI
+participant "RuleAnalyzer" as RA
+participant "checkBasic" as checkB
+participant "checkCompound" as checkComp
+participant "breakdownCompound" as breakC
+participant "checkCapability" as checkCap
+participant "breakdownMonolithic" as breakM
+participant "classifierPropmter" as classP
+
+' Sequence of interactions
+
+cAPI -> API : Process rules request
+note right: POST /rule?job_id=<GUID> \n{\n  "prompt": <string>\n}
+activate API
+API -> RA : ruleAnalysis = initialize with rule prompt and job_id
+activate RA
+
+group ruleAnalysis
+
+RA -> checkB : rule prompt
+activate checkB
+note over checkB
+    Check if rule prompt is 
+    generally a conditional
+    statement
+end note
+
+alt #Pink Rule prompt is not a conditional statement
+    checkB -> RA : false
+    RA -> API : Raise exception to user
+else #White Rule prompt is a conditional statement
+    checkB -> RA : true
+    deactivate checkB
+    RA -> checkComp : rule prompt
+    activate checkComp
+    note over checkComp
+        Check if rule prompt is
+        a compound statement
+    end note
+    checkComp -> AI : rule prompt, grammar
+    note over AI
+        Check if rule prompt is
+        a compound statement
+    end note
+    activate AI
+    alt #Orange Rule is a compound statement
+        AI -> checkComp : true
+        checkComp -> RA : true
+        RA -> breakC : rule prompt
+        activate breakC
+        note over breakC
+            Break down the compound
+            statement into its
+            constituent subrules
+        end note
+        breakC -> RA : constituent subrule list
+        deactivate breakC
+    else #LightBlue Rule is not a compound statement
+        AI -> checkComp : false
+        deactivate AI
+        checkComp -> RA : false
+        deactivate checkComp
+        RA -> RA : put rule in list of one
+    end
+    loop for rule in rule list
+    RA -> checkCap : rule
+    activate checkCap
+    checkCap -> AI : rule prompt, grammar
+    activate AI
+    note over AI
+        Check if rule is
+        capabale of being 
+        automated with rules
+        alone
+    end note
+    alt #Pink Rule is not capable of being automated with rules alone
+        AI -> checkCap : false
+        checkCap -> RA : raise error
+        RA -> API : Raise exception to user 
+    else #White Rule is capable of being automated with rules alone
+        AI -> checkCap : true
+        deactivate AI
+        checkCap -> RA : true
+        RA -> breakM : rule
+        activate breakM
+        breakM -> AI : rule prompt, grammar
+        activate AI
+        note over AI
+            Isolate conditional clause from rule
+        end note
+        AI -> breakM : conditional clause
+        breakM -> AI : rule prompt, grammar
+        note over AI
+            Isolate action clause from rule
+        end note
+        AI -> breakM : action clause
+        deactivate AI
+        breakM -> RA : conditional clause, action clause
+        deactivate breakM
+        RA -> classP : conditional clause, prompt, classes
+        activate classP
+        classP -> AI : conditional clause, grammar
+        activate AI
+        note over AI
+            Classify conditional clause as
+            one of fixed list of outlook
+            conditional options
+        end note
+        AI -> classP : classification
+        deactivate AI
+        classP -> RA : classification
+        deactivate classP
+
+        RA -> classP : action clause, prompt, classes
+        activate classP
+        classP -> AI : action clause, grammar
+        activate AI
+        note over AI
+            Classify conditional clause as
+            one of fixed list of outlook
+            action options
+        end note
+        AI -> classP : classification
+        deactivate AI
+        classP -> RA : classification
+        deactivate classP
+        RA -> RA : put conditional and action clause in rule JSON list
+        RA -> API : return rule JSON list
+        deactivate RA
+    end
+    end
+end
+
+end group
+
+API -> cAPI : Response: rule JSON list
+note right: Response: POST /rule \n{\n  "rule_list": [\n    {\n        "prompt": <string>,\n        "conditional": {\n            "choice": <selection>,\n            "parameters": {\n                <parameter>: <string>\n             }\n, "action": {\n            "choice": <selection>,\n            "parameters": {\n                <parameter>: <string>\n             }        }\n    ]\n}
+' Conclude the diagram
+@enduml

@@ -1,0 +1,400 @@
+@media (min-width: 320px) {
+  .harpprojects,
+  .harpproducts {
+    margin: 0;
+    font-size: 0.5em;
+  }
+
+  .harpstart {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 1.5em;
+    margin: -25em 0 0 0;
+  }
+  .harp {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    gap: 0.25em;
+  }
+  #intro {
+    font-size: 0.5em;
+    font-weight: 400;
+  }
+
+  .founderphotos img {
+    width: 2.5em;
+    margin-left: -1em;
+  }
+  .founderinfo {
+    display: flex;
+    flex-direction: column;
+  }
+  .founderinfo h1 {
+    margin: 0;
+    line-height: 1.2em;
+    font-size: 0.5em;
+    font-weight: 400;
+  }
+  .harpright {
+    font-size: 0.25em;
+    padding-left: 7em;
+  }
+  .harpinfo {
+    font-size: 1em;
+    gap: 1em;
+  }
+  .harpprojects {
+    margin: 0em;
+    gap: 1em;
+  }
+  .harpinfo2 {
+    gap: 3em;
+    margin-left: 3em;
+  }
+  #intro2 {
+    margin: 0em 0em 4em 3em;
+    font-size: 1em;
+  }
+  .harp2 {
+    margin: -3em 1em 1em 3em;
+  }
+  .harpinfo2 {
+    gap: 1.5em;
+    margin-left: 2em;
+  }
+  .vertical-line {
+    width: 0.1em;
+    height: 10em;
+    background-color: #4a4a4a;
+  }
+
+  .vertical-line::before {
+    top: 30%;
+    transform: translateY(-50%);
+    width: 0.2em;
+    height: 5em;
+  }
+  #projectstext {
+    font-size: 1em;
+    font-weight: 400;
+  }
+  #chipimg {
+    width: 17em;
+    height: 11em;
+    margin: 0em 2em 0em;
+    border-radius: 2em;
+  }
+  .harpproducts {
+    margin: 2em 0em 3em 0em;
+  }
+  .harpproductsinfo {
+    font-size: 1em;
+  }
+  .productsinfo {
+    gap: 2em;
+  }
+  .images {
+    margin-bottom: 0rem;
+  }
+
+  .images img {
+    width: 10em;
+    height: 6em;
+    border-radius: 1em;
+  }
+}
+@media (min-width: 390px) {
+  .harpstart {
+    margin: -40em 0 0 0;
+  }
+}
+@media (min-width: 412px) {
+  .harpstart {
+    margin: -45em 0 0 0;
+  }
+}
+@media (min-width: 768px) {
+  .harpstart {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4em;
+    margin: -50em 0 0 0;
+  }
+  .harp {
+    display: flex;
+    flex-direction: column;
+    align-items: right;
+    gap: 0.25em;
+  }
+  #intro {
+    font-size: 1.2em;
+    font-weight: 400;
+  }
+
+  .founderphotos img {
+    width: 4.5em;
+    margin-left: -1em;
+  }
+  .founderinfo {
+    display: flex;
+    flex-direction: column;
+  }
+  .founderinfo h1 {
+    margin: 0;
+    line-height: 1.2em;
+    font-size: 1em;
+    font-weight: 400;
+  }
+  .harpright {
+    font-size: 0.5em;
+    padding-left: 7em;
+    width: 75%;
+  }
+  .harpinfo {
+    font-size: 1em;
+    gap: 1em;
+  }
+  .harpprojects {
+    margin: 0em;
+    gap: 1em;
+    font-size: 1em;
+  }
+  .harpinfo2 {
+    gap: 3em;
+    margin-left: 3em;
+  }
+  #intro2 {
+    margin: 0em 0em 3em 3em;
+    font-size: 1.3em;
+  }
+  .harp2 {
+    margin: -3em 1em 1em 3em;
+  }
+  .harpinfo2 {
+    gap: 1.5em;
+    margin-left: 2em;
+  }
+  .vertical-line {
+    width: 0.1em;
+    height: 10em;
+    background-color: #4a4a4a;
+  }
+
+  .vertical-line::before {
+    top: 30%;
+    transform: translateY(-50%);
+    width: 0.2em;
+    height: 5em;
+  }
+  #projectstext {
+    font-size: 1em;
+    font-weight: 400;
+  }
+  #chipimg {
+    width: 17em;
+    height: 11em;
+    margin: 0em 2em 0em;
+    border-radius: 2em;
+  }
+  .harpproducts {
+    margin: 2em 0em 3em 0em;
+  }
+  .harpproductsinfo {
+    font-size: 2em;
+  }
+  .productsinfo {
+    gap: 2em;
+  }
+  .images {
+    margin-bottom: 0rem;
+  }
+
+  .images img {
+    width: 17em;
+    height: 10em;
+    border-radius: 1em;
+  }
+}
+@media (min-width: 768px) {
+  .harpstart {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4em;
+    margin: -50em 0 0 0;
+  }
+}
+
+@media (min-width: 961px) {
+  /* tablet, landscape iPad, lo-res laptops ands desktops */
+}
+@media (min-width: 1025px) {
+  /* big landscape tablets, laptops, and desktops */
+}
+@media (min-width: 1281px) {
+  /* hi-res laptops and desktops */
+}
+
+.product-text {
+  background: rgb(27, 104, 236);
+  background: linear-gradient(
+    90deg,
+    rgba(27, 104, 236, 1) 0%,
+    rgba(166, 251, 229, 1) 49%,
+    rgba(27, 104, 236, 1) 82%
+  );
+
+  font-size: 1.5em;
+  margin-left: 0.2em;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+}
+.gradient-text {
+  color: linear-gradient(
+    270deg,
+    rgba(155, 87, 243, 1) 10%,
+    rgba(0, 153, 255, 1) 40%,
+    rgba(127, 226, 147, 1) 86%
+  );
+  font-size: 1.6em;
+  margin-left: 0.2em;
+  font-weight: bold;
+}
+#chipimg {
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+#chipimg:hover {
+  transform: scale(1.2);
+  z-index: 10;
+}
+.harpstart {
+  display: flex;
+  justify-content: space-between;
+}
+#intro,
+.founderinfo {
+  color: white;
+}
+
+.founderphotos {
+  display: flex;
+  justify-content: flex-start;
+  position: relative;
+}
+
+.founderphotos img {
+  border-radius: 50%;
+  position: relative;
+  z-index: 1;
+
+  border: 4px solid rgba(0, 0, 0, 1);
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, z-index 0.3s ease;
+}
+
+.founderphotos img:first-child {
+  margin-left: 0;
+}
+
+.founderphotos img:hover {
+  transform: scale(1.1);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  z-index: 2;
+}
+
+.harpright {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.harpinfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: white;
+  text-align: right;
+}
+.harpprojects {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.harpinfo2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+}
+#intro2 {
+  color: white;
+  font-weight: 400;
+}
+.harp2 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  /* margin: -3em 0 2em 5rem; */
+  /* gap: 2em; */
+}
+.vertical-line {
+  position: relative;
+  background-color: #4a4a4a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.vertical-line::before {
+  content: "";
+  position: absolute;
+  top: 30%;
+  transform: translateY(-50%);
+  background-color: white;
+}
+#projectstext {
+  font-weight: 400;
+}
+
+.harpproducts {
+  /* margin: 15em 3em 5em 5em; */
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+}
+.harpproductsinfo {
+  color: white;
+  text-align: right;
+  /* font-size: 2em; */
+}
+.productsinfo {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  /* gap: 4em; */
+}
+.images {
+  display: flex;
+  flex-direction: row;
+  /* margin-bottom: 20rem; */
+  justify-content: space-evenly;
+}
+
+.images img {
+  /* width: 50em;
+  height: 30em;
+  border-radius: 2em; */
+  transition: transform 0.3s ease;
+}
+
+.images img:nth-child(1):hover,
+.images img:nth-child(2):hover {
+  transform: scale(1.2);
+  z-index: 10;
+}

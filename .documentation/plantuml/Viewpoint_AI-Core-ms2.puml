@@ -1,0 +1,105 @@
+@startuml Viewpoint_AI-Core-ms2
+
+' Force layout to left to right
+left to right direction
+package "Viewpoint AI Core" {
+' Define classes with methods
+
+class interfaceAPI <<FastAPI>>{
+    +POST /rule 
+    +POST /context
+    +GET /context/:job_id
+}
+
+package "Utilities"
+{
+class KnowledgeGraphGenerator {
+    #job_id: guid
+    #content: string
+    #context: bool
+    +generateGraph(self, text) -> string 
+    +cleanContent(content) -> string
+    +tokenize(text) -> list[string]
+    +inferErGraph(tokenized_text) -> json
+    +reconcileGraph(self, new_graph, old_graph)
+}
+
+class RuleAnalyzer { 
+    #rulePrompt: string  
+    #jobId: string
+    #ruleList: list[string]
+    #compoundRule: bool
+    +initialize(rulePrompt: String, jobId: String) -> void
+    +checkBasic(rulePrompt: String) -> Boolean
+    +checkCompound(rulePrompt: String) -> Boolean
+    +breakdownCompound(rulePrompt: String) -> List
+    +checkCapability(rule: String) -> Boolean
+    +breakdownMonolithic(rule: String) -> Tuple
+    +classifyPropmter(condition: String, prompt: String, classes: List) -> String
+    +raiseExceptionToUser(message: String) -> void
+    +putRuleInList(rule: String) -> void
+    +returnRuleJsonList() -> json
+}
+}
+
+}
+note right of RuleAnalyzer : Handles the analysis and processing of rule prompts based on specific conditions.\nIt interacts with various APIs and manages the flow of data for rule validation and\ndecomposition.
+
+note right of KnowledgeGraphGenerator : Generates a knowledge graph from a given text input.\n It tokenizes the text, infers an entity-relation graph,\nand reconciles the new graph with the old graph.
+
+
+' JSON Queries to the left of API
+note left of interfaceAPI
+  POST /rule JSON Query:
+  {
+    "job_id": "<GUID>",
+    "prompt": "<string>"
+  }
+
+  POST /context JSON Query:
+  {
+    "job_id": "<GUID>",
+    "email": "<string>"
+  }
+
+  GET /context/:job_id JSON Query:
+  {
+    "job_id": "<GUID>"
+  }
+end note
+
+' JSON Responses to the right of API
+note right of interfaceAPI
+  POST /rule JSON Response:
+  {
+    "job_id": "<GUID>",
+    "prompt": "<string>",
+    "rule_list": [
+        {
+            "prompt": "<string>",
+            "conditional": {
+                "choice": "<selection>",
+                "parameters": {
+                    "<parameter>": "<string>"
+                }
+            }
+        }
+    ]
+  }
+
+  POST /context JSON Response:
+  {
+    "job_id": "<GUID>",
+    "updated_graph": "<graph>"
+  }
+
+  GET /context/:job_id JSON Response:
+  {
+    "job_id": "<GUID>",
+    "updated_graph": "<graph>"
+  }
+end note
+
+
+
+@enduml
