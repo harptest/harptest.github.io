@@ -13,4 +13,5 @@ export default defineConfig({
   build: {
     outDir: 'dist', // Ensures build output goes to 'dist' folder
   },
+  assetsInclude: ['**/*.JPG'],
 })
